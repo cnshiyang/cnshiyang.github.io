@@ -80,6 +80,22 @@ a:focus {
   order: 1;
 }
 
+.paper-box--text-only .paper-box-text {
+  padding-left: 0;
+  max-width: 100%;
+}
+
+.paper-venue {
+  display: inline-block;
+  margin: 0 0 0.5em 0;
+  padding: 0.2em 0.6em;
+  color: #fff;
+  background-color: var(--brand-badge);
+  font-size: 0.85em;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+}
+
 @media (min-width: 48em) {
   .paper-box .paper-box-image {
     justify-content: flex-start;
@@ -92,6 +108,11 @@ a:focus {
     padding-left: 2em;
     max-width: 60%;
     order: 2;
+  }
+
+  .paper-box--text-only .paper-box-text {
+    padding-left: 0;
+    max-width: 100%;
   }
 }
 

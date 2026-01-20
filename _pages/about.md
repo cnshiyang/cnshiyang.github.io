@@ -26,14 +26,9 @@ I am open to collaborations on [Topics]. Please reach me at [Email] and include 
 ## Publications
 * indicates equal contribution, dagger indicates corresponding author.
 
-<div class="paper-box">
-  <div class="paper-box-image">
-    <div>
-      <div class="badge">[Venue Year]</div>
-      <img src="/images/500x300.png" alt="paper preview">
-    </div>
-  </div>
+<div class="paper-box paper-box--text-only">
   <div class="paper-box-text">
+    <p class="paper-venue">[Venue Year]</p>
     <p><a href="[Paper URL]">[Paper Title]</a></p>
     <p>[Author list with <strong>Yang Shi</strong> highlighted]</p>
     <ul>
@@ -42,14 +37,9 @@ I am open to collaborations on [Topics]. Please reach me at [Email] and include 
   </div>
 </div>
 
-<div class="paper-box">
-  <div class="paper-box-image">
-    <div>
-      <div class="badge">[Venue Year]</div>
-      <img src="/images/500x300.png" alt="paper preview">
-    </div>
-  </div>
+<div class="paper-box paper-box--text-only">
   <div class="paper-box-text">
+    <p class="paper-venue">[Venue Year]</p>
     <p><a href="[Paper URL]">[Paper Title]</a></p>
     <p>[Author list with <strong>Yang Shi</strong> highlighted]</p>
     <ul>
@@ -57,11 +47,6 @@ I am open to collaborations on [Topics]. Please reach me at [Email] and include 
     </ul>
   </div>
 </div>
-
-Selected publications:
-- [Paper title], [Authors], [Venue], [Year] ([PDF])
-- [Paper title], [Authors], [Venue], [Year] ([PDF])
-- [Paper title], [Authors], [Venue], [Year] ([PDF])
 
 <span class="anchor" id="honors-awards"></span>
 ## Honors and Awards
