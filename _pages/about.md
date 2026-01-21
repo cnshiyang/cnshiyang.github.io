@@ -26,6 +26,7 @@ I am open to collaborations on [Topics]. Please reach me at [Email] and include 
 ## Publications
 * indicates equal contribution, dagger indicates corresponding author.
 
+### Representative Publications
 <div class="paper-box paper-box--text-only">
   <div class="paper-box-text">
     <p class="paper-venue">The Web Conference 2026 (WWW 2026)</p>
@@ -56,5 +57,22 @@ I am open to collaborations on [Topics]. Please reach me at [Email] and include 
     <ul>
       <li>[One-sentence contribution or highlight]</li>
     </ul>
+  </div>
+</div>
+
+### Other Publications
+<div class="paper-box paper-box--text-only">
+  <div class="paper-box-text">
+    <p class="paper-venue">WSDM 2026</p>
+    <p>PR-CapsNet: Pseudo-Riemannian Capsule Network with Adaptive Curvature Routing for Graph Learning</p>
+    <p>Y Qin, J Wang, <strong>Y Shi</strong>, H Huang, J Li, W Liu, T Chen, J Qin</p>
+  </div>
+</div>
+
+<div class="paper-box paper-box--text-only">
+  <div class="paper-box-text">
+    <p class="paper-venue">Neurocomputing</p>
+    <p>DHS-PE: A More Suitable Positional Encoding for Directed Hypergraphs</p>
+    <p>R He, <strong>Y Shi</strong>, M Huang, L Lu, Z Dai, <strong>Y Shi</strong>, J Wang, Z Xie</p>
   </div>
 </div>
