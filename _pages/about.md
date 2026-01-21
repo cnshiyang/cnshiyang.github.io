@@ -24,17 +24,14 @@ I am open to collaborations on [Topics]. Please reach me at [Email] and include 
 
 <span class="anchor" id="publications"></span>
 ## Publications
-* indicates equal contribution, dagger indicates corresponding author.
+<p class="pub-note"><span class="pub-symbol">*</span> indicates equal contribution; <span class="pub-symbol">&dagger;</span> indicates corresponding author.</p>
 
 ### Representative Publications
 <div class="paper-box paper-box--text-only">
   <div class="paper-box-text">
     <p class="paper-venue">The Web Conference 2026 (WWW 2026)</p>
     <p><a href="https://arxiv.org/abs/2601.14115">Riemannian Liquid Spatio-Temporal Graph Network</a></p>
-    <p>Liangsi Lu, Jingchao Wang, Zhaorong Dai, Hanqian Liu, <strong>Yang Shi</strong></p>
-    <ul>
-      <li>Corresponding author.</li>
-    </ul>
+    <p>Liangsi Lu, Jingchao Wang, Zhaorong Dai, Hanqian Liu, <strong>Yang Shi</strong><sup>&dagger;</sup></p>
   </div>
 </div>
 
@@ -43,9 +40,6 @@ I am open to collaborations on [Topics]. Please reach me at [Email] and include 
     <p class="paper-venue">BIBM 2025</p>
     <p>PC-UNet: An Enforcing Poisson Statistics U-Net for Positron Emission Tomography Denoising</p>
     <p><strong>Yang Shi</strong>, Jingchao Wang, Liangsi Lu, Mingxuan Huang, Ruixin He, Yifeng Xie, Hanqian Liu, Minzhe Guo, Yangyang Liang, Weipeng Zhang, Zimeng Li, Xuhang Chen</p>
-    <ul>
-      <li>[One-sentence contribution or highlight]</li>
-    </ul>
   </div>
 </div>
 
@@ -54,9 +48,6 @@ I am open to collaborations on [Topics]. Please reach me at [Email] and include 
     <p class="paper-venue">arXiv preprint</p>
     <p><a href="https://arxiv.org/abs/2601.03331">MMErroR: A Benchmark for Erroneous Reasoning in Vision-Language Models</a></p>
     <p><strong>Yang Shi</strong>, Yifeng Xie, Minzhe Guo, Liangsi Lu, Mingxuan Huang, Jingchao Wang, Zhihong Zhu, Boyan Xu, Zhiqi Huang</p>
-    <ul>
-      <li>[One-sentence contribution or highlight]</li>
-    </ul>
   </div>
 </div>
 

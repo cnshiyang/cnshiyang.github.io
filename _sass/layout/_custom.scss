@@ -96,6 +96,16 @@ a:focus {
   letter-spacing: 0.02em;
 }
 
+.pub-note {
+  margin: 0.5em 0 1.5em;
+  opacity: 0.85;
+  font-size: 0.95em;
+}
+
+.pub-symbol {
+  font-weight: bold;
+}
+
 @media (min-width: 48em) {
   .paper-box .paper-box-image {
     justify-content: flex-start;
