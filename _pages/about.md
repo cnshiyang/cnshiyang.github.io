@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 <span class="anchor" id="about-me"></span>
-I am [Your Position] in [Your Department] at [Your Institution], working with [Advisor/PI]. My research focuses on [Research Area 1], [Research Area 2], and [Research Area 3].
+I am Yang Shi at Guangdong University of Technology. My research focuses on [Research Area 1], [Research Area 2], and [Research Area 3].
 
 My research interests include:
 - [Interest 1]
@@ -28,9 +28,20 @@ I am open to collaborations on [Topics]. Please reach me at [Email] and include 
 
 <div class="paper-box paper-box--text-only">
   <div class="paper-box-text">
-    <p class="paper-venue">[Venue Year]</p>
-    <p><a href="[Paper URL]">[Paper Title]</a></p>
-    <p>[Author list with <strong>Yang Shi</strong> highlighted]</p>
+    <p class="paper-venue">The Web Conference 2026 (WWW 2026)</p>
+    <p><a href="https://arxiv.org/abs/2601.14115">Riemannian Liquid Spatio-Temporal Graph Network</a></p>
+    <p>Liangsi Lu, Jingchao Wang, Zhaorong Dai, Hanqian Liu, <strong>Yang Shi</strong></p>
+    <ul>
+      <li>Corresponding author.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="paper-box paper-box--text-only">
+  <div class="paper-box-text">
+    <p class="paper-venue">BIBM 2025</p>
+    <p>PC-UNet: An Enforcing Poisson Statistics U-Net for Positron Emission Tomography Denoising</p>
+    <p><strong>Yang Shi</strong>, Jingchao Wang, Liangsi Lu, Mingxuan Huang, Ruixin He, Yifeng Xie, Hanqian Liu, Minzhe Guo, Yangyang Liang, Weipeng Zhang, Zimeng Li, Xuhang Chen</p>
     <ul>
       <li>[One-sentence contribution or highlight]</li>
     </ul>
@@ -39,31 +50,11 @@ I am open to collaborations on [Topics]. Please reach me at [Email] and include 
 
 <div class="paper-box paper-box--text-only">
   <div class="paper-box-text">
-    <p class="paper-venue">[Venue Year]</p>
-    <p><a href="[Paper URL]">[Paper Title]</a></p>
-    <p>[Author list with <strong>Yang Shi</strong> highlighted]</p>
+    <p class="paper-venue">arXiv preprint</p>
+    <p><a href="https://arxiv.org/abs/2601.03331">MMErroR: A Benchmark for Erroneous Reasoning in Vision-Language Models</a></p>
+    <p><strong>Yang Shi</strong>, Yifeng Xie, Minzhe Guo, Liangsi Lu, Mingxuan Huang, Jingchao Wang, Zhihong Zhu, Boyan Xu, Zhiqi Huang</p>
     <ul>
       <li>[One-sentence contribution or highlight]</li>
     </ul>
   </div>
 </div>
-
-<span class="anchor" id="honors-awards"></span>
-## Honors and Awards
-- [Year] [Award], [Organization]
-- [Year] [Award], [Organization]
-
-<span class="anchor" id="education"></span>
-## Education
-- [Degree], [Institution], [Year]
-- [Degree], [Institution], [Year]
-
-<span class="anchor" id="invited-talks"></span>
-## Invited Talks
-- [Year] [Talk title], [Venue]
-- [Year] [Talk title], [Venue]
-
-<span class="anchor" id="internships"></span>
-## Internships
-- [Year] [Role], [Company], [Team]
-- [Year] [Role], [Company], [Team]
