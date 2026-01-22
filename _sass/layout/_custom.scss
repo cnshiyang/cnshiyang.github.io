@@ -3,7 +3,7 @@
   --brand-link: #224b8d;
   --brand-link-hover: #1b3c71;
   --brand-badge: #00369f;
-  --venue-color: #d32f2f;
+  --venue-color: #d6004a;
   --paper-border: #efefef;
   --paper-shadow: rgba(0, 0, 0, 0.35);
 }
@@ -12,7 +12,7 @@ html[data-theme="dark"] {
   --brand-link: #8cb4ff;
   --brand-link-hover: #b7d3ff;
   --brand-badge: #6a8fe0;
-  --venue-color: #ff7b7b;
+  --venue-color: #ff5c8d;
   --paper-border: #2f3337;
   --paper-shadow: rgba(0, 0, 0, 0.5);
 }
@@ -136,7 +136,7 @@ a:focus {
 .pub-venue {
   margin: 0 0 0.8em;
   font-style: italic;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--venue-color);
 }
 
