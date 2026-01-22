@@ -65,7 +65,7 @@ I am actively seeking Ph.D. opportunities for Fall 2027.
 
 <div class="pub-item">
   <h3 class="pub-title">DWT-Net: A Medical Image Segmentation Model Incorporating Frequency Domain Information</h3>
-  <p class="pub-authors">Lixian Chen, Xueyan Wu, Jiayi Ma, Shichu Li, <strong>Yang Shi</strong>, Mingxuan Huang</p>
+  <p class="pub-authors">Lixian Chen, Xueyan Wu, Jiayi Ma, Shichu Li, <strong>Yang Shi<sup>&dagger;</sup></strong>, Mingxuan Huang</p>
   <p class="pub-venue">ICCTIT 2024 (EI)</p>
   <p class="pub-links"><a href="https://ieeexplore.ieee.org/abstract/document/10928460">[Paper]</a></p>
 </div>
