@@ -45,7 +45,7 @@ I am actively seeking Ph.D. opportunities for Fall 2027.
 <div class="pub-item">
   <h3 class="pub-title">PR-CapsNet: Pseudo-Riemannian Capsule Network with Adaptive Curvature Routing for Graph Learning</h3>
   <p class="pub-authors">Ye Qin, Jingchao Wang, <strong>Yang Shi</strong>, Haiying Huang, Junxu Li, Weijian Liu, Tinghui Chen, Jinghui Qin</p>
-  <p class="pub-venue">WSDM 2026(CCF-B)</p>
+  <p class="pub-venue">WSDM 2026 (CCF-B)</p>
   <p class="pub-links"><a href="https://arxiv.org/abs/2512.08218">[arXiv]</a></p>
 </div>
 
