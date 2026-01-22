@@ -13,7 +13,7 @@ title                    : "Yang Shi"
 title_separator          : "-"
 name                     : &name "Yang Shi"
 description              : &description "Academic homepage of Yang Shi at Guangdong University of Technology"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : "" # The base hostname & protocol for your site e.g. "https://your-username.github.io",
+url                      : "https://cnshiyang.github.io" # The base hostname & protocol for your site e.g. "https://your-username.github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "" # e.g. "your-username/your-repo"

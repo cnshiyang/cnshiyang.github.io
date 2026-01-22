@@ -3,6 +3,7 @@
   --brand-link: #224b8d;
   --brand-link-hover: #1b3c71;
   --brand-badge: #00369f;
+  --venue-color: #d32f2f;
   --paper-border: #efefef;
   --paper-shadow: rgba(0, 0, 0, 0.35);
 }
@@ -11,6 +12,7 @@ html[data-theme="dark"] {
   --brand-link: #8cb4ff;
   --brand-link-hover: #b7d3ff;
   --brand-badge: #6a8fe0;
+  --venue-color: #ff7b7b;
   --paper-border: #2f3337;
   --paper-shadow: rgba(0, 0, 0, 0.5);
 }
@@ -104,6 +106,47 @@ a:focus {
 
 .pub-symbol {
   font-weight: bold;
+}
+
+.pub-item {
+  margin: 0 0 1.75em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid var(--paper-border);
+}
+
+.pub-item:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.pub-title {
+  margin: 0 0 0.4em;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.pub-title a {
+  text-decoration: none;
+}
+
+.pub-authors {
+  margin: 0 0 0.6em;
+}
+
+.pub-venue {
+  margin: 0 0 0.8em;
+  font-style: italic;
+  font-weight: 600;
+  color: var(--venue-color);
+}
+
+.pub-links {
+  margin: 0;
+}
+
+.pub-links a {
+  margin-right: 0.8em;
+  font-weight: 600;
 }
 
 @media (min-width: 48em) {

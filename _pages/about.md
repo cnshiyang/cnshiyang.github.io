@@ -7,63 +7,72 @@ redirect_from:
 ---
 
 <span class="anchor" id="about-me"></span>
-I am Yang Shi at Guangdong University of Technology. My research focuses on [Research Area 1], [Research Area 2], and [Research Area 3].
+Hi, I am Yang Shi at Guangdong University of Technology. My research focuses on Computer Vision and Data Mining.
 
-My research interests include:
-- [Interest 1]
-- [Interest 2]
-- [Interest 3]
-
-I am open to collaborations on [Topics]. Please reach me at [Email] and include a brief description of your project.
+I am actively seeking Ph.D. opportunities for Fall 2027.
 
 <span class="anchor" id="news"></span>
 ## News
-- *[YYYY.MM]* [News item]
-- *[YYYY.MM]* [News item]
-- *[YYYY.MM]* [News item]
+- *[2025.05]* Received funding from the National College Students' Innovation and Entrepreneurship Program
 
 <span class="anchor" id="publications"></span>
 ## Publications
 <p class="pub-note"><span class="pub-symbol">*</span> indicates equal contribution; <span class="pub-symbol">&dagger;</span> indicates corresponding author.</p>
 
 ### Representative Publications
-<div class="paper-box paper-box--text-only">
-  <div class="paper-box-text">
-    <p class="paper-venue">The Web Conference 2026 (WWW 2026)</p>
-    <p><a href="https://arxiv.org/abs/2601.14115">Riemannian Liquid Spatio-Temporal Graph Network</a></p>
-    <p>Liangsi Lu, Jingchao Wang, Zhaorong Dai, Hanqian Liu, <strong>Yang Shi</strong><sup>&dagger;</sup></p>
-  </div>
+<div class="pub-item">
+  <h3 class="pub-title">Riemannian Liquid Spatio-Temporal Graph Network</h3>
+  <p class="pub-authors">Liangsi Lu, Jingchao Wang, Zhaorong Dai, Hanqian Liu, <strong>Yang Shi</strong><sup>&dagger;</sup></p>
+  <p class="pub-venue">WWW 2026 (CCF-A)</p>
+  <p class="pub-links"><a href="https://rlstg.github.io/">[Page]</a> <a href="https://arxiv.org/abs/2601.14115">[arXiv]</a> <a href="https://github.com/RLSTG/RLSTG">[Code]</a></p>
 </div>
 
-<div class="paper-box paper-box--text-only">
-  <div class="paper-box-text">
-    <p class="paper-venue">BIBM 2025</p>
-    <p>PC-UNet: An Enforcing Poisson Statistics U-Net for Positron Emission Tomography Denoising</p>
-    <p><strong>Yang Shi</strong>, Jingchao Wang, Liangsi Lu, Mingxuan Huang, Ruixin He, Yifeng Xie, Hanqian Liu, Minzhe Guo, Yangyang Liang, Weipeng Zhang, Zimeng Li, Xuhang Chen</p>
-  </div>
+<div class="pub-item">
+  <h3 class="pub-title">PC-UNet: An Enforcing Poisson Statistics U-Net for Positron Emission Tomography Denoising</h3>
+  <p class="pub-authors"><strong>Yang Shi</strong>, Jingchao Wang, Liangsi Lu, Mingxuan Huang, Ruixin He, Yifeng Xie, Hanqian Liu, Minzhe Guo, Yangyang Liang, Weipeng Zhang, Zimeng Li, Xuhang Chen</p>
+  <p class="pub-venue">BIBM 2025 (CCF-B)</p>
+  <p class="pub-links"><a href="https://arxiv.org/abs/2510.14995">[arXiv]</a></p>
 </div>
 
-<div class="paper-box paper-box--text-only">
-  <div class="paper-box-text">
-    <p class="paper-venue">arXiv preprint</p>
-    <p><a href="https://arxiv.org/abs/2601.03331">MMErroR: A Benchmark for Erroneous Reasoning in Vision-Language Models</a></p>
-    <p><strong>Yang Shi</strong>, Yifeng Xie, Minzhe Guo, Liangsi Lu, Mingxuan Huang, Jingchao Wang, Zhihong Zhu, Boyan Xu, Zhiqi Huang</p>
-  </div>
+<div class="pub-item">
+  <h3 class="pub-title">MMErroR: A Benchmark for Erroneous Reasoning in Vision-Language Models</h3>
+  <p class="pub-authors"><strong>Yang Shi</strong>, Yifeng Xie, Minzhe Guo, Liangsi Lu, Mingxuan Huang, Jingchao Wang, Zhihong Zhu, Boyan Xu, Zhiqi Huang</p>
+  <p class="pub-venue">arXiv preprint</p>
+  <p class="pub-links"><a href="https://mmerror-benchmark.github.io">[Page]</a> <a href="https://arxiv.org/abs/2601.03331">[arXiv]</a></p>
 </div>
 
 ### Other Publications
-<div class="paper-box paper-box--text-only">
-  <div class="paper-box-text">
-    <p class="paper-venue">WSDM 2026</p>
-    <p>PR-CapsNet: Pseudo-Riemannian Capsule Network with Adaptive Curvature Routing for Graph Learning</p>
-    <p>Y Qin, J Wang, <strong>Y Shi</strong>, H Huang, J Li, W Liu, T Chen, J Qin</p>
-  </div>
+<div class="pub-item">
+  <h3 class="pub-title">PR-CapsNet: Pseudo-Riemannian Capsule Network with Adaptive Curvature Routing for Graph Learning</h3>
+  <p class="pub-authors">Ye Qin, Jingchao Wang, <strong>Yang Shi</strong>, Haiying Huang, Junxu Li, Weijian Liu, Tinghui Chen, Jinghui Qin</p>
+  <p class="pub-venue">WSDM 2026(CCF-B)</p>
+  <p class="pub-links"><a href="https://arxiv.org/abs/2512.08218">[arXiv]</a></p>
 </div>
 
-<div class="paper-box paper-box--text-only">
-  <div class="paper-box-text">
-    <p class="paper-venue">Neurocomputing</p>
-    <p>DHS-PE: A More Suitable Positional Encoding for Directed Hypergraphs</p>
-    <p>R He, <strong>Y Shi</strong>, M Huang, L Lu, Z Dai, <strong>Y Shi</strong>, J Wang, Z Xie</p>
-  </div>
+<div class="pub-item">
+  <h3 class="pub-title">DHS-PE: A More Suitable Positional Encoding for Directed Hypergraphs</h3>
+  <p class="pub-authors">Ruixin He, <strong>Yang Shi</strong>, Mingxuan Huang, Liangsi Lu, Zhaorong Dai, Yingtong Shi, Jingchao Wang, Zhuoming Xie</p>
+  <p class="pub-venue">Neurocomputing (CCF-C)</p>
+  <p class="pub-links"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231225019848">[Paper]</a></p>
+</div>
+
+<div class="pub-item">
+  <h3 class="pub-title">DIAMOND-LoL: Enforcing Lieb-Robinson Locality in Diffusion World Models for Long-Horizon Consistency</h3>
+  <p class="pub-authors"><strong>Yang Shi</strong>, Jingchao Wang, Liangsi Lu, Liang Lin, Shichu Li, Mingxuan Huang, Lixian Chen, Minzhe Guo, Haiying Huang, Zhaorong Dai, Hanqian Liu</p>
+  <p class="pub-venue">ICCV 2025 Workshop RIWM</p>
+  <p class="pub-links"><a href="https://openreview.net/forum?id=zBzG4Eze2j&noteId=gLRaHMCRiP">[Paper]</a></p>
+</div>
+
+<div class="pub-item">
+  <h3 class="pub-title">DWT-Net: A Medical Image Segmentation Model Incorporating Frequency Domain Information</h3>
+  <p class="pub-authors">Lixian Chen, Xueyan Wu, Jiayi Ma, Shichu Li, <strong>Yang Shi</strong>, Mingxuan Huang</p>
+  <p class="pub-venue">ICCTIT 2024 (EI)</p>
+  <p class="pub-links"><a href="https://ieeexplore.ieee.org/abstract/document/10928460">[Paper]</a></p>
+</div>
+
+<div class="pub-item">
+  <h3 class="pub-title">When Task Performance Deceives: Task-Geometry Decoupling in Learnable-Curvature Hyperbolic GNNs</h3>
+  <p class="pub-authors">Lixian Chen, Jingchao Wang, Zhaorong Dai, Hanqian Liu, Danxiang Ai, <strong>Yang Shi</strong></p>
+  <p class="pub-venue">SSRN</p>
+  <p class="pub-links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5600451">[SSRN]</a></p>
 </div>
