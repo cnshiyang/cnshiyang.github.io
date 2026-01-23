@@ -23,7 +23,7 @@ repository               : "" # e.g. "your-username/your-repo"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "1.png"
   name             : "Yang Shi"
   pronouns         : # example: "she/her"  
   bio              : "Guangdong University of Technology"
