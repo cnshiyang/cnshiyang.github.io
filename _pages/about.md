@@ -33,7 +33,7 @@ I am actively seeking Ph.D. opportunities for Fall 2027.
   <h3 class="pub-title">PC-UNet: An Enforcing Poisson Statistics U-Net for Positron Emission Tomography Denoising</h3>
   <p class="pub-authors"><strong>Yang Shi</strong>, Jingchao Wang, Liangsi Lu, Mingxuan Huang, Ruixin He, Yifeng Xie, Hanqian Liu, Minzhe Guo, Yangyang Liang, Weipeng Zhang, Zimeng Li, Xuhang Chen</p>
   <p class="pub-venue">BIBM 2025 (CCF-B)</p>
-  <p class="pub-links"><a href="https://arxiv.org/abs/2510.14995">[arXiv]</a></p>
+  <p class="pub-links"><a href="https://ieeexplore.ieee.org/document/11356275">[Paper]</a> <a href="https://arxiv.org/abs/2510.14995">[arXiv]</a></p>
 </div>
 
 <div class="pub-item">
