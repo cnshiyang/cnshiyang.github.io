@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 <span class="anchor" id="about-me"></span>
-Hi, I am Yang Shi at Guangdong University of Technology. My research focuses on Computer Vision and Data Mining.
+Hi, I am Yang Shi, a current undergraduate student at the School of Computer Science of Guangdong University of Technology and expected to graduate in 2027. My research focuses on Computer Vision and Data Mining.
 
 I am actively seeking Ph.D. opportunities for Fall 2027.
 
@@ -78,3 +78,4 @@ I am actively seeking Ph.D. opportunities for Fall 2027.
   <p class="pub-venue">SSRN</p>
   <p class="pub-links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5600451">[SSRN]</a></p>
 </div>
+
