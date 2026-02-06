@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Yang Shi"
+title                    : "Yang Shi | Guangdong University of Technology"
 title_separator          : "-"
 name                     : &name "Yang Shi"
 description              : &description "Academic homepage of Yang Shi at Guangdong University of Technology"   # Update this with a general description of your site, this is the default if not overridden by a page
