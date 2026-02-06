@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Yang Shi | Guangdong University of Technology"
+title                    : "Yang Shi"
 title_separator          : "-"
-name                     : &name "Yang Shi"
+name                     : &name "Yang Shi | Homepage"
 description              : &description "Academic homepage of Yang Shi at Guangdong University of Technology"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://cnshiyang.github.io" # The base hostname & protocol for your site e.g. "https://your-username.github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
