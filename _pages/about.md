@@ -23,26 +23,33 @@ I am actively seeking Ph.D. opportunities for Fall 2027.
 
 <style>
 .pub-section-title {
-  font-size: 1.25rem;
-  margin: 1.5rem 0 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  color: #1a202c;
+  font-size: 1.05rem;
+  margin: 1.25rem 0 0.5rem;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  color: #2d3748;
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
+  gap: 0.3rem;
 }
 
 .pub-section-title::before {
   content: "";
-  width: 14px;
-  height: 14px;
-  border-radius: 4px;
-  background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  background: linear-gradient(135deg, #4a5568 0%, #4a5568 100%);
+}
+
+.pub-section-divider {
+  height: 1px;
+  margin: 0.3rem 0 0.9rem;
+  background: linear-gradient(90deg, #e2e8f0 0%, #cbd5e0 50%, #e2e8f0 100%);
 }
 </style>
 
 <h3 class="pub-section-title">Representative Publications</h3>
+<div class="pub-section-divider"></div>
 
 <div class="pub-item">
   <h3 class="pub-title">Riemannian Liquid Spatio-Temporal Graph Network</h3>
@@ -66,6 +73,7 @@ I am actively seeking Ph.D. opportunities for Fall 2027.
 </div>
 
 <h3 class="pub-section-title">Other Publications</h3>
+<div class="pub-section-divider"></div>
 
 <div class="pub-item">
   <h3 class="pub-title">PR-CapsNet: Pseudo-Riemannian Capsule Network with Adaptive Curvature Routing for Graph Learning</h3>
