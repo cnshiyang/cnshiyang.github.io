@@ -21,7 +21,8 @@ I am actively seeking Ph.D. opportunities for Fall 2027.
 ## Publications
 <p class="pub-note"><span class="pub-symbol">*</span> indicates equal contribution; <span class="pub-symbol">&dagger;</span> indicates corresponding author.</p>
 
-### Representative Publications
+#### <span style="color:#4a5568;">Representative Publications</span>
+
 <div class="pub-item">
   <h3 class="pub-title">Riemannian Liquid Spatio-Temporal Graph Network</h3>
   <p class="pub-authors">Liangsi Lu, Jingchao Wang, Zhaorong Dai, Hanqian Liu, <strong>Yang Shi</strong><sup>&dagger;</sup></p>
@@ -43,7 +44,8 @@ I am actively seeking Ph.D. opportunities for Fall 2027.
   <p class="pub-links"><a href="https://mmerror-benchmark.github.io">[Page]</a> <a href="https://arxiv.org/abs/2601.03331">[arXiv]</a></p>
 </div>
 
-### Other Publications
+#### <span style="color:#4a5568;">Other Publications</span>
+
 <div class="pub-item">
   <h3 class="pub-title">PR-CapsNet: Pseudo-Riemannian Capsule Network with Adaptive Curvature Routing for Graph Learning</h3>
   <p class="pub-authors">Ye Qin, Jingchao Wang, <strong>Yang Shi</strong>, Haiying Huang, Junxu Li, Weijian Liu, Tinghui Chen, Jinghui Qin</p>
