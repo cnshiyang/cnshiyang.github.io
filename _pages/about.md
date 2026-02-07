@@ -21,7 +21,7 @@ I am actively seeking Ph.D. opportunities for Fall 2027.
 ## Publications
 <p class="pub-note"><span class="pub-symbol">*</span> indicates equal contribution; <span class="pub-symbol">&dagger;</span> indicates corresponding author.</p>
 
-#### <span style="color:#4a5568;">Representative Publications</span>
+<h3 class="pub-section-title">Representative Publications</h3>
 
 <div class="pub-item">
   <h3 class="pub-title">Riemannian Liquid Spatio-Temporal Graph Network</h3>
@@ -44,7 +44,7 @@ I am actively seeking Ph.D. opportunities for Fall 2027.
   <p class="pub-links"><a href="https://mmerror-benchmark.github.io">[Page]</a> <a href="https://arxiv.org/abs/2601.03331">[arXiv]</a></p>
 </div>
 
-#### <span style="color:#4a5568;">Other Publications</span>
+<h3 class="pub-section-title">Other Publications</h3>
 
 <div class="pub-item">
   <h3 class="pub-title">PR-CapsNet: Pseudo-Riemannian Capsule Network with Adaptive Curvature Routing for Graph Learning</h3>
@@ -80,4 +80,3 @@ I am actively seeking Ph.D. opportunities for Fall 2027.
   <p class="pub-venue">SSRN</p>
   <p class="pub-links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5600451">[SSRN]</a></p>
 </div>
-
