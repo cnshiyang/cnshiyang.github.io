@@ -108,31 +108,6 @@ a:focus {
   font-weight: bold;
 }
 
-.pub-section-title {
-  display: flex;
-  align-items: center;
-  gap: 0.8em;
-  margin: 2.2em 0 1.1em;
-  font-size: clamp(1.15rem, 1.05rem + 0.6vw, 1.6rem);
-  font-weight: 800;
-  letter-spacing: 0.01em;
-  color: #1f2937;
-}
-
-.pub-section-title::before {
-  content: "";
-  display: block;
-  width: 50px;
-  height: 4px;
-  border-radius: 999px;
-  background: linear-gradient(90deg, var(--brand-badge), var(--brand-link-hover));
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-}
-
-html[data-theme="dark"] .pub-section-title {
-  color: #e5e7eb;
-}
-
 .pub-item {
   margin: 0 0 1.75em;
   padding-bottom: 1.5em;

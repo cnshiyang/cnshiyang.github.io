@@ -21,6 +21,27 @@ I am actively seeking Ph.D. opportunities for Fall 2027.
 ## Publications
 <p class="pub-note"><span class="pub-symbol">*</span> indicates equal contribution; <span class="pub-symbol">&dagger;</span> indicates corresponding author.</p>
 
+<style>
+.pub-section-title {
+  font-size: 1.25rem;
+  margin: 1.5rem 0 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #1a202c;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.pub-section-title::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+  background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+}
+</style>
+
 <h3 class="pub-section-title">Representative Publications</h3>
 
 <div class="pub-item">
