@@ -13,7 +13,7 @@ I am actively seeking Ph.D. opportunities for Fall 2027.
 
 <span class="anchor" id="news"></span>
 ## News
-- *[2026.01]* My paper as the sole corresponding author was accepted by CVPR 2026.
+- *[2026.02]* My paper as the sole corresponding author was accepted by CVPR 2026.
 - *[2026.01]* My paper as the sole corresponding author was accepted by WWW 2026.
 - *[2025.10]* My paper as the first author was accepted by BIBM 2025 as a regular paper.
 - *[2025.05]* I received funding from the "National College Students' Innovation and Entrepreneurship Program".
