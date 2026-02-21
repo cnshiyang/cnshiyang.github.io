@@ -13,6 +13,7 @@ I am actively seeking Ph.D. opportunities for Fall 2027.
 
 <span class="anchor" id="news"></span>
 ## News
+- *[2026.01]* My paper as the sole corresponding author was accepted by CVPR 2026.
 - *[2026.01]* My paper as the sole corresponding author was accepted by WWW 2026.
 - *[2025.10]* My paper as the first author was accepted by BIBM 2025 as a regular paper.
 - *[2025.05]* I received funding from the "National College Students' Innovation and Entrepreneurship Program".
@@ -50,6 +51,13 @@ I am actively seeking Ph.D. opportunities for Fall 2027.
 
 <h3 class="pub-section-title">Representative Publications</h3>
 <div class="pub-section-divider"></div>
+
+<div class="pub-item">
+  <h3 class="pub-title">ChordEdit: One-Step Low-Energy Transport for Image Editing</h3>
+  <p class="pub-authors">Liangsi Lu, Xuhang Chen, Minzhe Guo, Shichu Li, Jingchao Wang, <strong>Yang Shi</strong><sup>&dagger;</sup></p>
+  <p class="pub-venue">CVPR 2026 (CCF-A)</p>
+  <!-- <p class="pub-links"><a href="https://rlstg.github.io/">[Page]</a> <a href="https://arxiv.org/abs/2601.14115">[arXiv]</a> <a href="https://github.com/RLSTG/RLSTG">[Code]</a></p> -->
+</div>
 
 <div class="pub-item">
   <h3 class="pub-title">Riemannian Liquid Spatio-Temporal Graph Network</h3>
