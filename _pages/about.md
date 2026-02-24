@@ -56,7 +56,7 @@ I am actively seeking Ph.D. opportunities for Fall 2027.
   <h3 class="pub-title">ChordEdit: One-Step Low-Energy Transport for Image Editing</h3>
   <p class="pub-authors">Liangsi Lu, Xuhang Chen, Minzhe Guo, Shichu Li, Jingchao Wang, <strong>Yang Shi</strong><sup>&dagger;</sup></p>
   <p class="pub-venue">CVPR 2026 (CCF-A)</p>
-  <!-- <p class="pub-links"><a href="https://rlstg.github.io/">[Page]</a> <a href="https://arxiv.org/abs/2601.14115">[arXiv]</a> <a href="https://github.com/RLSTG/RLSTG">[Code]</a></p> -->
+  <p class="pub-links"><a href="https://chordedit.github.io/">[Page]</a> <a href="https://arxiv.org/abs/2602.19083">[arXiv]</a> <a href="https://github.com/ChordEdit/ChordEdit">[Code]</a></p>
 </div>
 
 <div class="pub-item">
