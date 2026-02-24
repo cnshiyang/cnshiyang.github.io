@@ -97,12 +97,12 @@ I am actively seeking Ph.D. opportunities for Fall 2027.
   <p class="pub-links"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231225019848">[paper]</a></p>
 </div>
 
-<div class="pub-item">
+<!-- <div class="pub-item">
   <h3 class="pub-title">DIAMOND-LoL: Enforcing Lieb-Robinson Locality in Diffusion World Models for Long-Horizon Consistency</h3>
   <p class="pub-authors"><strong>Yang Shi</strong>, Jingchao Wang, Liangsi Lu, Liang Lin, Shichu Li, Mingxuan Huang, Lixian Chen, Minzhe Guo, Haiying Huang, Zhaorong Dai, Hanqian Liu</p>
   <p class="pub-venue">ICCV 2025 Workshop RIWM</p>
   <p class="pub-links"><a href="https://openreview.net/forum?id=zBzG4Eze2j&noteId=gLRaHMCRiP">[paper]</a></p>
-</div>
+</div> -->
 
 <div class="pub-item">
   <h3 class="pub-title">DWT-Net: A Medical Image Segmentation Model Incorporating Frequency Domain Information</h3>
@@ -111,9 +111,9 @@ I am actively seeking Ph.D. opportunities for Fall 2027.
   <p class="pub-links"><a href="https://ieeexplore.ieee.org/abstract/document/10928460">[paper]</a></p>
 </div>
 
-<div class="pub-item">
+<!-- <div class="pub-item">
   <h3 class="pub-title">When Task Performance Deceives: Task-Geometry Decoupling in Learnable-Curvature Hyperbolic GNNs</h3>
   <p class="pub-authors">Lixian Chen, Jingchao Wang, Zhaorong Dai, Hanqian Liu, Danxiang Ai, <strong>Yang Shi</strong></p>
   <p class="pub-venue">SSRN</p>
   <p class="pub-links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5600451">[SSRN]</a></p>
-</div>
+</div> -->
