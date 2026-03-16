@@ -9,7 +9,7 @@ redirect_from:
 <span class="anchor" id="about-me"></span>
 Hi, I am Yang Shi, a current undergraduate student at the School of Computer Science of Guangdong University of Technology and expected to graduate in 2027. My research focuses on Computer Vision and Data Mining.
 
-I am actively seeking Ph.D. opportunities for Fall 2027.
+<!-- I am actively seeking Ph.D. opportunities for Fall 2027. -->
 
 <span class="anchor" id="news"></span>
 ## News
@@ -100,7 +100,7 @@ I am actively seeking Ph.D. opportunities for Fall 2027.
 <!-- <div class="pub-item">
   <h3 class="pub-title">DIAMOND-LoL: Enforcing Lieb-Robinson Locality in Diffusion World Models for Long-Horizon Consistency</h3>
   <p class="pub-authors"><strong>Yang Shi</strong>, Jingchao Wang, Liangsi Lu, Liang Lin, Shichu Li, Mingxuan Huang, Lixian Chen, Minzhe Guo, Haiying Huang, Zhaorong Dai, Hanqian Liu</p>
-  <p class="pub-venue">ICCV 2025 Workshop RIWM</p>
+  <p class="pub-venue">ICCV 2025 Workshop RIWM Non Archival</p>
   <p class="pub-links"><a href="https://openreview.net/forum?id=zBzG4Eze2j&noteId=gLRaHMCRiP">[paper]</a></p>
 </div> -->
 
