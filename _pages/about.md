@@ -13,6 +13,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 
 <span class="anchor" id="news"></span>
 ## News
+- *[2026.04]* My paper as the first author was accepted by ACL 2026 as a main conference paper.
 - *[2026.02]* My paper as the sole corresponding author was accepted by CVPR 2026.
 - *[2026.01]* My paper as the sole corresponding author was accepted by WWW 2026.
 - *[2025.10]* My paper as the first author was accepted by BIBM 2025 as a regular paper.
@@ -52,6 +53,15 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 <h3 class="pub-section-title">Representative Publications</h3>
 <div class="pub-section-divider"></div>
 
+
+<div class="pub-item">
+  <h3 class="pub-title">MMErroR: A Benchmark for Erroneous Reasoning in Vision-Language Models</h3>
+  <p class="pub-authors"><strong>Yang Shi</strong>, Yifeng Xie, Minzhe Guo, Liangsi Lu, Mingxuan Huang, Jingchao Wang, Zhihong Zhu, Boyan Xu, Zhiqi Huang</p>
+  <p class="pub-venue">ACL 2026 (CCF-A)</p>
+  <p class="pub-links"><a href="https://mmerror-benchmark.github.io">[page]</a> <a href="https://arxiv.org/abs/2601.03331">[arXiv]</a></p>
+</div>
+
+
 <div class="pub-item">
   <h3 class="pub-title">ChordEdit: One-Step Low-Energy Transport for Image Editing</h3>
   <p class="pub-authors">Liangsi Lu, Xuhang Chen, Minzhe Guo, Shichu Li, Jingchao Wang, <strong>Yang Shi</strong><sup>&dagger;</sup></p>
@@ -73,12 +83,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
   <p class="pub-links"><a href="https://ieeexplore.ieee.org/document/11356275">[paper]</a> <a href="https://arxiv.org/abs/2510.14995">[arXiv]</a></p>
 </div>
 
-<div class="pub-item">
-  <h3 class="pub-title">MMErroR: A Benchmark for Erroneous Reasoning in Vision-Language Models</h3>
-  <p class="pub-authors"><strong>Yang Shi</strong>, Yifeng Xie, Minzhe Guo, Liangsi Lu, Mingxuan Huang, Jingchao Wang, Zhihong Zhu, Boyan Xu, Zhiqi Huang</p>
-  <p class="pub-venue">arXiv preprint</p>
-  <p class="pub-links"><a href="https://mmerror-benchmark.github.io">[page]</a> <a href="https://arxiv.org/abs/2601.03331">[arXiv]</a></p>
-</div>
+
 
 <h3 class="pub-section-title">Other Publications</h3>
 <div class="pub-section-divider"></div>
