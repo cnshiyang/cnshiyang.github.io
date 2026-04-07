@@ -20,7 +20,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 - *[2025.05]* 🎉🎉 I received funding from the "National College Students' Innovation and Entrepreneurship Program".
 
 <span class="anchor" id="publications"></span>
-## Publications
+## 📝 Publications
 <p class="pub-note"><span class="pub-symbol">*</span> indicates equal contribution; <span class="pub-symbol">&dagger;</span> indicates corresponding author.</p>
 
 <style>
@@ -50,7 +50,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 }
 </style>
 
-<h3 class="pub-section-title">📝 Representative Publications</h3>
+<h3 class="pub-section-title">Representative Publications</h3>
 <div class="pub-section-divider"></div>
 
 
