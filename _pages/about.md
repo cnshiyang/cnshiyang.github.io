@@ -67,14 +67,14 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 <div class="pub-item">
   <h3 class="pub-title">ChordEdit: One-Step Low-Energy Transport for Image Editing</h3>
   <p class="pub-authors">Liangsi Lu, Xuhang Chen, Minzhe Guo, Shichu Li, Jingchao Wang, <strong>Yang Shi</strong><sup>&dagger;</sup></p>
-  <p class="pub-venue">CVPR 2026 (CCF-A, oral, Top 3%)</p>
+  <p class="pub-venue">CVPR 2026 (CCF-A, Oral, Top 3%)</p>
   <p class="pub-links"><a href="https://chordedit.github.io/">[page]</a> <a href="https://arxiv.org/abs/2602.19083">[arXiv]</a> <a href="https://github.com/ChordEdit/ChordEdit">[code]</a></p>
 </div>
 
 <div class="pub-item">
   <h3 class="pub-title">Riemannian Liquid Spatio-Temporal Graph Network</h3>
   <p class="pub-authors">Liangsi Lu, Jingchao Wang, Zhaorong Dai, Hanqian Liu, <strong>Yang Shi</strong><sup>&dagger;</sup></p>
-  <p class="pub-venue">WWW 2026 (CCF-A, oral)</p>
+  <p class="pub-venue">WWW 2026 (CCF-A, Oral)</p>
   <p class="pub-links"><a href="https://rlstg.github.io/">[page]</a> <a href="https://arxiv.org/abs/2601.14115">[arXiv]</a> <a href="https://github.com/RLSTG/RLSTG">[code]</a></p>
 </div>
 
