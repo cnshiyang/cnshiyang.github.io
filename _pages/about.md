@@ -13,7 +13,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 
 <span class="anchor" id="news"></span>
 ## 🔥 News
-- *[2026.04]* 🎉🎉 My paper "ChordEdit: One-Step Low-Energy Transport for Image Editing" (CVPR 2026) was selected for <font color="red">oral</font> presentation!
+- *[2026.04]* 🎉🎉 My paper "ChordEdit: One-Step Low-Energy Transport for Image Editing" (CVPR 2026) was selected for <font color="red">oral (Top 3%)</font> presentation!
 - *[2026.04]* 🎉🎉 My paper "Riemannian Liquid Spatio-Temporal Graph Network" (WWW 2026) was selected for <font color="red">oral</font> presentation!
 - *[2026.04]* 🎉🎉 My paper as the first author was accepted by ACL 2026 as a main conference paper.
 - *[2026.02]* 🎉🎉 My paper as the sole corresponding author was accepted by CVPR 2026.
@@ -67,7 +67,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 <div class="pub-item">
   <h3 class="pub-title">ChordEdit: One-Step Low-Energy Transport for Image Editing</h3>
   <p class="pub-authors">Liangsi Lu, Xuhang Chen, Minzhe Guo, Shichu Li, Jingchao Wang, <strong>Yang Shi</strong><sup>&dagger;</sup></p>
-  <p class="pub-venue">CVPR 2026 (CCF-A, oral)</p>
+  <p class="pub-venue">CVPR 2026 (CCF-A, oral, Top 3%)</p>
   <p class="pub-links"><a href="https://chordedit.github.io/">[page]</a> <a href="https://arxiv.org/abs/2602.19083">[arXiv]</a> <a href="https://github.com/ChordEdit/ChordEdit">[code]</a></p>
 </div>
 
