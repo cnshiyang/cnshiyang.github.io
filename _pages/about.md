@@ -13,7 +13,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 
 <span class="anchor" id="news"></span>
 ## 🔥 News
-- *[2026.04]* 🎉🎉 My paper "Riemannian Liquid Spatio-Temporal Graph Network" (CCF-A) was selected for <font color="red">oral</font> presentation.
+- *[2026.04]* 🎉🎉 My paper "Riemannian Liquid Spatio-Temporal Graph Network" (WWW 2026) was selected for <font color="red">oral</font> presentation.
 - *[2026.04]* 🎉🎉 My paper as the first author was accepted by ACL 2026 as a main conference paper.
 - *[2026.02]* 🎉🎉 My paper as the sole corresponding author was accepted by CVPR 2026.
 - *[2026.01]* 🎉🎉 My paper as the sole corresponding author was accepted by WWW 2026.
