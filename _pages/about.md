@@ -13,6 +13,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 
 <span class="anchor" id="news"></span>
 ## 🔥 News
+- *[2026.04]* 🎉🎉 My paper "Riemannian Liquid Spatio-Temporal Graph Network" (CCF-A) was selected for <font color="red">oral</font> presentation.
 - *[2026.04]* 🎉🎉 My paper as the first author was accepted by ACL 2026 as a main conference paper.
 - *[2026.02]* 🎉🎉 My paper as the sole corresponding author was accepted by CVPR 2026.
 - *[2026.01]* 🎉🎉 My paper as the sole corresponding author was accepted by WWW 2026.
@@ -72,7 +73,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 <div class="pub-item">
   <h3 class="pub-title">Riemannian Liquid Spatio-Temporal Graph Network</h3>
   <p class="pub-authors">Liangsi Lu, Jingchao Wang, Zhaorong Dai, Hanqian Liu, <strong>Yang Shi</strong><sup>&dagger;</sup></p>
-  <p class="pub-venue">WWW 2026 (CCF-A)</p>
+  <p class="pub-venue">WWW 2026 (CCF-A, oral)</p>
   <p class="pub-links"><a href="https://rlstg.github.io/">[page]</a> <a href="https://arxiv.org/abs/2601.14115">[arXiv]</a> <a href="https://github.com/RLSTG/RLSTG">[code]</a></p>
 </div>
 
