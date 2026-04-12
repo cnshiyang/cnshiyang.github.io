@@ -100,7 +100,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 <div class="pub-item">
   <h3 class="pub-title">DHS-PE: A More Suitable Positional Encoding for Directed Hypergraphs</h3>
   <p class="pub-authors">Ruixin He, <strong>Yang Shi</strong>, Mingxuan Huang, Liangsi Lu, Zhaorong Dai, Yingtong Shi, Jingchao Wang, Zhuoming Xie</p>
-  <p class="pub-venue">Neurocomputing (CCF-C)</p>
+  <p class="pub-venue">Neurocomputing (CCF-C, JCR Q1)</p>
   <p class="pub-links"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231225019848">[paper]</a></p>
 </div>
 
