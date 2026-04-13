@@ -75,7 +75,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
   <h3 class="pub-title">Riemannian Liquid Spatio-Temporal Graph Network</h3>
   <p class="pub-authors">Liangsi Lu, Jingchao Wang, Zhaorong Dai, Hanqian Liu, <strong>Yang Shi</strong><sup>&dagger;</sup></p>
   <p class="pub-venue">WWW 2026 (CCF-A, Oral)</p>
-  <p class="pub-links"><a href="https://rlstg.github.io/">[page]</a> <a href="https://arxiv.org/abs/2601.14115">[arXiv]</a> <a href="https://github.com/RLSTG/RLSTG">[code]</a></p>
+  <p class="pub-links"><a href="https://dl.acm.org/doi/10.1145/3774904.3792090">[paper]</a> <a href="https://rlstg.github.io/">[page]</a> <a href="https://arxiv.org/abs/2601.14115">[arXiv]</a> <a href="https://github.com/RLSTG/RLSTG">[code]</a></p>
 </div>
 
 <div class="pub-item">
