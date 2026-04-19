@@ -22,7 +22,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 - *[2025.05]* 🎉🎉 I received funding from the "National College Students' Innovation and Entrepreneurship Program".
 
 <span class="anchor" id="publications"></span>
-## 📝 Publications
+## 📝 Selected Publications
 <p class="pub-note"><span class="pub-symbol">*</span> indicates equal contribution; <span class="pub-symbol">&dagger;</span> indicates corresponding author.</p>
 
 <style>
@@ -52,8 +52,8 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 }
 </style>
 
-<h3 class="pub-section-title">Representative Publications</h3>
-<div class="pub-section-divider"></div>
+<!-- <h3 class="pub-section-title">Representative Publications</h3> -->
+<!-- <div class="pub-section-divider"></div> -->
 
 
 <div class="pub-item">
@@ -87,7 +87,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 
 
 
-<h3 class="pub-section-title">Other Publications</h3>
+<!-- <h3 class="pub-section-title">Other Publications</h3>
 <div class="pub-section-divider"></div>
 
 <div class="pub-item">
@@ -102,7 +102,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
   <p class="pub-authors">Ruixin He, <strong>Yang Shi</strong>, Mingxuan Huang, Liangsi Lu, Zhaorong Dai, Yingtong Shi, Jingchao Wang, Zhuoming Xie</p>
   <p class="pub-venue">Neurocomputing (CCF-C, JCR Q1)</p>
   <p class="pub-links"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231225019848">[paper]</a></p>
-</div>
+</div> -->
 
 <!-- <div class="pub-item">
   <h3 class="pub-title">DIAMOND-LoL: Enforcing Lieb-Robinson Locality in Diffusion World Models for Long-Horizon Consistency</h3>
