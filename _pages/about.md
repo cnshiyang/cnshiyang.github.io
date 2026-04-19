@@ -43,7 +43,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 }
 
 .pub-all-link {
-  font-size: 1.05rem;
+  font-size: 0.85rem;
   color: #1a365d;
   text-decoration: underline;
   text-underline-offset: 2px;
