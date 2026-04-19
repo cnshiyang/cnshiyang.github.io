@@ -22,10 +22,43 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 - *[2025.05]* 🎉🎉 I received funding from the "National College Students' Innovation and Entrepreneurship Program".
 
 <span class="anchor" id="publications"></span>
-## 📝 Selected Publications
+<div class="pub-header">
+  <h2>📝 Selected Publications</h2>
+  <a class="pub-all-link" href="{{ site.selected_publications_link | default: site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">View all on Google Scholar</a>
+</div>
 <p class="pub-note"><span class="pub-symbol">*</span> indicates equal contribution; <span class="pub-symbol">&dagger;</span> indicates corresponding author.</p>
 
 <style>
+.pub-header {
+  margin: 1.2rem 0 0.35rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.pub-header h2 {
+  margin: 0;
+}
+
+.pub-all-link {
+  font-size: 1.05rem;
+  color: #1a365d;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.pub-all-link:hover {
+  color: #2b6cb0;
+}
+
+@media (max-width: 640px) {
+  .pub-all-link {
+    width: 100%;
+  }
+}
+
 .pub-section-title {
   font-size: 1.05rem;
   margin: 1.25rem 0 0.5rem;

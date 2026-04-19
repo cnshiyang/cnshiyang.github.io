@@ -17,6 +17,7 @@ url                      : "https://cnshiyang.github.io" # The base hostname & p
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "" # e.g. "your-username/your-repo"
+selected_publications_link: "https://scholar.google.com/citations?user=vbS_4mIAAAAJ" # Optional: URL for the 'View all on Google Scholar' link on the About page
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -35,7 +36,7 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=vbS_4mIAAAAJ&hl=zh-CN"
+  googlescholar    : "https://scholar.google.com/citations?user=vbS_4mIAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : # [ORCID URL]
