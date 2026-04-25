@@ -93,7 +93,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
   <h3 class="pub-title">MMErroR: A Benchmark for Erroneous Reasoning in Vision-Language Models</h3>
   <p class="pub-authors"><strong>Yang Shi</strong>, Yifeng Xie, Minzhe Guo, Liangsi Lu, Mingxuan Huang, Jingchao Wang, Zhihong Zhu, Boyan Xu, Zhiqi Huang</p>
   <p class="pub-venue">ACL 2026 (CCF-A)</p>
-  <p class="pub-links"><a href="https://mmerror-benchmark.github.io">[page]</a> <a href="https://arxiv.org/abs/2601.03331">[arXiv]</a> <a href="https://huggingface.co/datasets/s-u-do/mmerror-benchmark">[dataset]</a></p>
+  <p class="pub-links"><a href="https://mmerror-benchmark.github.io">[Page]</a> <a href="https://arxiv.org/abs/2601.03331">[ArXiv]</a> <a href="https://huggingface.co/datasets/s-u-do/mmerror-benchmark">[Dataset]</a> <a href="https://github.com/code-here-in/MMerroR-Eval">[Code]</a></p>
 </div>
 
 
@@ -101,21 +101,21 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
   <h3 class="pub-title">ChordEdit: One-Step Low-Energy Transport for Image Editing</h3>
   <p class="pub-authors">Liangsi Lu, Xuhang Chen, Minzhe Guo, Shichu Li, Jingchao Wang, <strong>Yang Shi</strong><sup>&dagger;</sup></p>
   <p class="pub-venue">CVPR 2026 (CCF-A, Oral, Top 1%)</p>
-  <p class="pub-links"><a href="https://chordedit.github.io/">[page]</a> <a href="https://arxiv.org/abs/2602.19083">[arXiv]</a> <a href="https://github.com/ChordEdit/ChordEdit">[code]</a></p>
+  <p class="pub-links"><a href="https://chordedit.github.io/">[Page]</a> <a href="https://arxiv.org/abs/2602.19083">[ArXiv]</a> <a href="https://github.com/ChordEdit/ChordEdit">[Code]</a></p>
 </div>
 
 <div class="pub-item">
   <h3 class="pub-title">Riemannian Liquid Spatio-Temporal Graph Network</h3>
   <p class="pub-authors">Liangsi Lu, Jingchao Wang, Zhaorong Dai, Hanqian Liu, <strong>Yang Shi</strong><sup>&dagger;</sup></p>
   <p class="pub-venue">WWW 2026 (CCF-A, Oral)</p>
-  <p class="pub-links"><a href="https://rlstg.github.io/">[page]</a> <a href="https://dl.acm.org/doi/10.1145/3774904.3792090">[paper]</a> <a href="https://arxiv.org/abs/2601.14115">[arXiv]</a> <a href="https://github.com/RLSTG/RLSTG">[code]</a></p>
+  <p class="pub-links"><a href="https://rlstg.github.io/">[Page]</a> <a href="https://dl.acm.org/doi/10.1145/3774904.3792090">[Paper]</a> <a href="https://arxiv.org/abs/2601.14115">[ArXiv]</a> <a href="https://github.com/RLSTG/RLSTG">[Code]</a></p>
 </div>
 
 <div class="pub-item">
   <h3 class="pub-title">PC-UNet: An Enforcing Poisson Statistics U-Net for Positron Emission Tomography Denoising</h3>
   <p class="pub-authors"><strong>Yang Shi</strong>, Jingchao Wang, Liangsi Lu, Mingxuan Huang, Ruixin He, Yifeng Xie, Hanqian Liu, Minzhe Guo, Yangyang Liang, Weipeng Zhang, Zimeng Li, Xuhang Chen</p>
   <p class="pub-venue">BIBM 2025 (CCF-B)</p>
-  <p class="pub-links"><a href="https://ieeexplore.ieee.org/document/11356275">[paper]</a> <a href="https://arxiv.org/abs/2510.14995">[arXiv]</a></p>
+  <p class="pub-links"><a href="https://ieeexplore.ieee.org/document/11356275">[Paper]</a> <a href="https://arxiv.org/abs/2510.14995">[ArXiv]</a></p>
 </div>
 
 
