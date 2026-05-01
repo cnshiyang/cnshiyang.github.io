@@ -13,6 +13,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 
 <span class="anchor" id="news"></span>
 ## 🔥 News
+- *[2026.05]* 🎉🎉 My paper as the sole corresponding author was accepted by ICML 2026.
 - *[2026.04]* 🎉🎉 My paper "ChordEdit: One-Step Low-Energy Transport for Image Editing" (CVPR 2026) was selected for <font color="red">oral (Top 1%)</font> presentation!
 - *[2026.04]* 🎉🎉 My paper "Riemannian Liquid Spatio-Temporal Graph Network" (WWW 2026) was selected for <font color="red">oral</font> presentation!
 - *[2026.04]* 🎉🎉 My paper as the first author was accepted by ACL 2026 as a main conference paper.
@@ -87,7 +88,12 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 
 <!-- <h3 class="pub-section-title">Representative Publications</h3> -->
 <!-- <div class="pub-section-divider"></div> -->
-
+<div class="pub-item">
+  <h3 class="pub-title">Semantic Granularity Navigation in Image Editing</h3>
+  <p class="pub-authors">Liangsi Lu, Minzhe Guo, Xuhang Chen, <strong>Yang Shi</strong><sup>&dagger;</sup></p>
+  <p class="pub-venue">ICML 2026 (CCF-A)</p>
+  <!-- <p class="pub-links"><a href="https://mmerror-benchmark.github.io">[Page]</a> <a href="https://arxiv.org/abs/2601.03331">[ArXiv]</a> <a href="https://huggingface.co/datasets/s-u-do/mmerror-benchmark">[Dataset]</a> <a href="https://github.com/code-here-in/MMerroR-Evaluation">[Code]</a></p> -->
+</div>
 
 <div class="pub-item">
   <h3 class="pub-title">MMErroR: A Benchmark for Erroneous Reasoning in Vision-Language Models</h3>
