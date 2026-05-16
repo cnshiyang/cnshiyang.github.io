@@ -13,6 +13,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 
 <span class="anchor" id="news"></span>
 ## 🔥 News
+- *[2026.05]* 🎉🎉 My paper as the first author was accepted by SIGKDD 2026.
 - *[2026.05]* 🎉🎉 My paper as the sole corresponding author was accepted by ICML 2026.
 - *[2026.04]* 🏆🏆 My paper "ChordEdit: One-Step Low-Energy Transport for Image Editing" (CVPR 2026) was selected for <font color="red">oral (Top 1%)</font> presentation!
 - *[2026.04]* 🏆🏆 My paper "Riemannian Liquid Spatio-Temporal Graph Network" (WWW 2026) was selected for <font color="red">oral</font> presentation!
@@ -89,6 +90,13 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 <!-- <h3 class="pub-section-title">Representative Publications</h3> -->
 <!-- <div class="pub-section-divider"></div> -->
 <div class="pub-item">
+  <h3 class="pub-title">Over-squashing as Transport Congestion: A Sandpile Dynamics Perspective</h3>
+  <p class="pub-authors"><strong>Yang Shi</strong>, Lixian Chen, Jingchao Wang, Minzhe Guo, Mingxuan Huang, Yanhui Chen, Yifeng Xie, Xuhang Chen, Liangsi Lu<sup>&dagger;</sup></p>
+  <p class="pub-venue">SIGKDD 2026 (CCF-A)</p>
+  <!-- <p class="pub-links"><a href="https://mmerror-benchmark.github.io">[Page]</a> <a href="https://arxiv.org/abs/2601.03331">[ArXiv]</a> <a href="https://huggingface.co/datasets/s-u-do/mmerror-benchmark">[Dataset]</a> <a href="https://github.com/code-here-in/MMerroR-Evaluation">[Code]</a></p> -->
+</div>
+
+<div class="pub-item">
   <h3 class="pub-title">Semantic Granularity Navigation in Image Editing</h3>
   <p class="pub-authors">Liangsi Lu, Minzhe Guo, Xuhang Chen, <strong>Yang Shi</strong><sup>&dagger;</sup></p>
   <p class="pub-venue">ICML 2026 (CCF-A)</p>
@@ -97,7 +105,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 
 <div class="pub-item">
   <h3 class="pub-title">MMErroR: A Benchmark for Erroneous Reasoning in Vision-Language Models</h3>
-  <p class="pub-authors"><strong>Yang Shi</strong>, Yifeng Xie, Minzhe Guo, Liangsi Lu, Mingxuan Huang, Jingchao Wang, Zhihong Zhu, Boyan Xu, Zhiqi Huang</p>
+  <p class="pub-authors"><strong>Yang Shi</strong>, Yifeng Xie, Minzhe Guo, Liangsi Lu, Mingxuan Huang, Jingchao Wang, Zhihong Zhu, Boyan Xu<sup>&dagger;</sup>, Zhiqi Huang</p>
   <p class="pub-venue">ACL 2026 (CCF-A)</p>
   <p class="pub-links"><a href="https://mmerror-benchmark.github.io">[Page]</a> <a href="https://arxiv.org/abs/2601.03331">[ArXiv]</a> <a href="https://huggingface.co/datasets/s-u-do/mmerror-benchmark">[Dataset]</a> <a href="https://github.com/code-here-in/MMerroR-Evaluation">[Code]</a></p>
 </div>
@@ -117,12 +125,12 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
   <p class="pub-links"><a href="https://rlstg.github.io/">[Page]</a> <a href="https://dl.acm.org/doi/10.1145/3774904.3792090">[Paper]</a> <a href="https://arxiv.org/abs/2601.14115">[ArXiv]</a> <a href="https://github.com/RLSTG/RLSTG">[Code]</a></p>
 </div>
 
-<div class="pub-item">
+<!-- <div class="pub-item">
   <h3 class="pub-title">PC-UNet: An Enforcing Poisson Statistics U-Net for Positron Emission Tomography Denoising</h3>
   <p class="pub-authors"><strong>Yang Shi</strong>, Jingchao Wang, Liangsi Lu, Mingxuan Huang, Ruixin He, Yifeng Xie, Hanqian Liu, Minzhe Guo, Yangyang Liang, Weipeng Zhang, Zimeng Li, Xuhang Chen</p>
   <p class="pub-venue">BIBM 2025 (CCF-B)</p>
   <p class="pub-links"><a href="https://ieeexplore.ieee.org/document/11356275">[Paper]</a> <a href="https://arxiv.org/abs/2510.14995">[ArXiv]</a></p>
-</div>
+</div> -->
 
 
 
