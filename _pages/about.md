@@ -13,6 +13,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 
 <span class="anchor" id="news"></span>
 ## 🔥 News
+- *[2026.05]* 🏆🏆 My paper "ChordEdit: One-Step Low-Energy Transport for Image Editing" (CVPR 2026) has been nominated as the <font color="red">Best Paper Award Candidate Paper</font>!
 - *[2026.05]* 🎉🎉 My paper as the first author was accepted by SIGKDD 2026.
 - *[2026.05]* 🎉🎉 My paper as the sole corresponding author was accepted by ICML 2026.
 - *[2026.04]* 🏆🏆 My paper "ChordEdit: One-Step Low-Energy Transport for Image Editing" (CVPR 2026) was selected for <font color="red">oral (Top 1%)</font> presentation!
