@@ -116,7 +116,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
   <h3 class="pub-title">ChordEdit: One-Step Low-Energy Transport for Image Editing</h3>
   <p class="pub-authors">Liangsi Lu, Xuhang Chen, Minzhe Guo, Shichu Li, Jingchao Wang, <strong>Yang Shi</strong><sup>&dagger;</sup></p>
   <p class="pub-venue">CVPR 2026 (CCF-A, Best paper candidate, Top 0.45%)</p>
-  <p class="pub-links"><a href="https://chordedit.github.io/">[Page]</a> <a href="https://arxiv.org/abs/2602.19083">[ArXiv]</a> <a href="https://github.com/ChordEdit/ChordEdit">[Code]</a></p>
+  <p class="pub-links"><a href="https://chordedit.github.io/">[Page]</a> <a href="https://arxiv.org/abs/2602.19083">[ArXiv]</a> <a href="https://github.com/ChordEdit/ChordEdit">[Code]</a> <a href="https://www.youtube.com/watch?v=cgwRTLJpvE4&t=14s">[Video]</a> <a href="https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/38895.png?t=1779175316.3100607">[Poster]</a></p>
 </div>
 
 <div class="pub-item">
