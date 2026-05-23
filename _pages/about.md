@@ -94,14 +94,14 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
   <h3 class="pub-title">Over-squashing as Transport Congestion: A Sandpile Dynamics Perspective</h3>
   <p class="pub-authors"><strong>Yang Shi</strong>, Lixian Chen, Jingchao Wang, Minzhe Guo, Mingxuan Huang, Yanhui Chen, Yifeng Xie, Xuhang Chen, Liangsi Lu<sup>&dagger;</sup></p>
   <p class="pub-venue">SIGKDD 2026 (CCF-A)</p>
-  <!-- <p class="pub-links"><a href="https://mmerror-benchmark.github.io">[Page]</a> <a href="https://arxiv.org/abs/2601.03331">[ArXiv]</a> <a href="https://huggingface.co/datasets/s-u-do/mmerror-benchmark">[Dataset]</a> <a href="https://github.com/code-here-in/MMerroR-Evaluation">[Code]</a></p> -->
+  <p class="pub-links"><a href="https://sandpile-gnn.github.io/">[Page]</a></p>
 </div>
 
 <div class="pub-item">
   <h3 class="pub-title">Semantic Granularity Navigation in Image Editing</h3>
   <p class="pub-authors">Liangsi Lu, Minzhe Guo, Xuhang Chen, <strong>Yang Shi</strong><sup>&dagger;</sup></p>
   <p class="pub-venue">ICML 2026 (CCF-A)</p>
-  <!-- <p class="pub-links"><a href="https://mmerror-benchmark.github.io">[Page]</a> <a href="https://arxiv.org/abs/2601.03331">[ArXiv]</a> <a href="https://huggingface.co/datasets/s-u-do/mmerror-benchmark">[Dataset]</a> <a href="https://github.com/code-here-in/MMerroR-Evaluation">[Code]</a></p> -->
+  <p class="pub-links"><a href="https://naviedit.github.io/">[Page]</a> <a href="http://arxiv.org/abs/2605.21190">[ArXiv]</a></p>
 </div>
 
 <div class="pub-item">
