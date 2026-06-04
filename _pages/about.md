@@ -16,8 +16,8 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 - *[2026.05]* 🏆🏆 My paper "ChordEdit: One-Step Low-Energy Transport for Image Editing" (CVPR 2026) was nominated to be the <font color="red">best paper award candidate (Top 0.45%)</font>!
 - *[2026.05]* 🎉🎉 My paper as the first author was accepted by SIGKDD 2026.
 - *[2026.05]* 🎉🎉 My paper as the sole corresponding author was accepted by ICML 2026.
-- *[2026.04]* 🏆🏆 My paper "ChordEdit: One-Step Low-Energy Transport for Image Editing" (CVPR 2026) was selected for <font color="red">oral (Top 1%)</font> presentation!
-- *[2026.04]* 🏆🏆 My paper "Riemannian Liquid Spatio-Temporal Graph Network" (WWW 2026) was selected for <font color="red">oral</font> presentation!
+<!-- - *[2026.04]* 🏆🏆 My paper "ChordEdit: One-Step Low-Energy Transport for Image Editing" (CVPR 2026) was selected for <font color="red">oral (Top 1%)</font> presentation! -->
+<!-- - *[2026.04]* 🏆🏆 My paper "Riemannian Liquid Spatio-Temporal Graph Network" (WWW 2026) was selected for <font color="red">oral</font> presentation! -->
 - *[2026.04]* 🎉🎉 My paper as the first author was accepted by ACL 2026 as a main conference paper.
 - *[2026.02]* 🎉🎉 My paper as the sole corresponding author was accepted by CVPR 2026.
 - *[2026.01]* 🎉🎉 My paper as the sole corresponding author was accepted by WWW 2026.
@@ -107,8 +107,8 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 <div class="pub-item">
   <h3 class="pub-title">MMErroR: A Benchmark for Erroneous Reasoning in Vision-Language Models</h3>
   <p class="pub-authors"><strong>Yang Shi</strong>, Yifeng Xie, Minzhe Guo, Liangsi Lu, Mingxuan Huang, Jingchao Wang, Zhihong Zhu, Boyan Xu<sup>&dagger;</sup>, Zhiqi Huang</p>
-  <p class="pub-venue">ACL 2026 (CCF-A)</p>
-  <p class="pub-links"><a href="https://mmerror-benchmark.github.io">[Page]</a> <a href="https://arxiv.org/abs/2601.03331">[ArXiv]</a> <a href="https://huggingface.co/datasets/s-u-do/mmerror-benchmark">[Dataset]</a> <a href="https://github.com/code-here-in/MMerroR-Evaluation">[Code]</a></p>
+  <p class="pub-venue">ACL 2026 (CCF-A, Oral)</p>
+  <p class="pub-links"><a href="https://mmerror-benchmark.github.io">[Page]</a> <a href="https://arxiv.org/abs/2601.03331">[ArXiv]</a> <a href="https://huggingface.co/datasets/s-u-do/mmerror-benchmark">[Dataset]</a> <a href="https://github.com/code-here-in/MMerroR-Evaluation">[Code]</a> <a href="https://paperform.co/file/s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2026-06-04/t9l35pm/ACL%202026_main-5866.pptx?expires=1781199466&signature=ed21d1a6aef0af6319724ed852aa54ee76a4b5c45bf694a64ac453a00798845f">[Slider]</a> <a href="https://paperform.co/file/s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2026-06-04/l0k35d8/ACL%202026_main-5866.mp4?expires=1781199466&signature=efa20643ffd5fc989c4f50bbbde15a36e45cfc49791e20110eeb250c60ad30c8">[Video]</a></p>
 </div>
 
 
