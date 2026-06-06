@@ -13,6 +13,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 
 <span class="anchor" id="news"></span>
 ## 🔥 News
+- *[2026.06]* 🏆🏆 My paper "ChordEdit: One-Step Low-Energy Transport for Image Editing" (CVPR 2026) was nominated to be the <font color="red">Best Student Paper Honorable Mention🏆</font>!
 - *[2026.05]* 🏆🏆 My paper "ChordEdit: One-Step Low-Energy Transport for Image Editing" (CVPR 2026) was nominated to be the <font color="red">best paper award candidate (Top 0.45%)</font>!
 - *[2026.05]* 🎉🎉 My paper as the first author was accepted by SIGKDD 2026.
 - *[2026.05]* 🎉🎉 My paper as the sole corresponding author was accepted by ICML 2026.
@@ -115,7 +116,7 @@ Hi, I am Yang Shi, a current undergraduate student at the School of Computer Sci
 <div class="pub-item">
   <h3 class="pub-title">ChordEdit: One-Step Low-Energy Transport for Image Editing</h3>
   <p class="pub-authors">Liangsi Lu, Xuhang Chen, Minzhe Guo, Shichu Li, Jingchao Wang, <strong>Yang Shi</strong><sup>&dagger;</sup></p>
-  <p class="pub-venue">CVPR 2026 (CCF-A, Best Student Paper Honorable Mention, Top 0.03%)</p>
+  <p class="pub-venue">CVPR 2026 (CCF-A, Best Student Paper Honorable Mention)</p>
   <p class="pub-links"><a href="https://chordedit.github.io/">[Page]</a> <a href="https://arxiv.org/abs/2602.19083">[ArXiv]</a> <a href="https://github.com/ChordEdit/ChordEdit">[Code]</a> <a href="https://www.youtube.com/watch?v=cgwRTLJpvE4&t=14s">[Video]</a> <a href="https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/38895.png?t=1779175316.3100607">[Poster]</a></p>
 </div>
 
