@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbfbf8">
+  <meta name="description" content="Yang Shi — undergraduate researcher at Guangdong University of Technology.">
+  <meta name="keywords" content="Yang Shi, Guangdong University of Technology">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Yang Shi | Homepage">
+  <meta property="og:description" content="Research in computer vision and data mining.">
+  <meta property="og:image" content="assets/avatar.png">
+  <title>Yang Shi | Homepage</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('yang-shi-theme');
+        var preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.dataset.theme = saved || preferred;
+      } catch (error) {
+        document.documentElement.dataset.theme = 'light';
+      }
+    })();
+  </script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg class="icon-sprite" aria-hidden="true">
+    <symbol id="icon-graduation-cap" viewBox="0 0 24 24"><path d="m2 8 10-5 10 5-10 5L2 8Z"></path><path d="M6 10.2V15c2.8 2.2 9.2 2.2 12 0v-4.8"></path><path d="M22 8v6"></path></symbol>
+    <symbol id="icon-landmark" viewBox="0 0 24 24"><path d="m3 10 9-6 9 6"></path><path d="M5 10v8M9 10v8M15 10v8M19 10v8M3 20h18"></path></symbol>
+    <symbol id="icon-network" viewBox="0 0 24 24"><circle cx="12" cy="5" r="2.5"></circle><circle cx="5" cy="18" r="2.5"></circle><circle cx="19" cy="18" r="2.5"></circle><path d="m10.6 7.1-4.2 8.7M13.4 7.1l4.2 8.7M7.5 18h9"></path></symbol>
+    <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M3 5h18v14H3z"></path><path d="m3 6 9 7 9-7"></path></symbol>
+    <symbol id="icon-github" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.3-.4 6.8-1.6 6.8-7A5.4 5.4 0 0 0 19.4 4 5 5 0 0 0 19.3.5S18.2.1 15 1.8a13.4 13.4 0 0 0-7 0C4.8.1 3.7.5 3.7.5A5 5 0 0 0 3.6 4a5.4 5.4 0 0 0-1.4 3.7c0 5.4 3.5 6.5 6.8 7A4.8 4.8 0 0 0 8 18v4"></path><path d="M8 19c-3 .9-3-1.5-4-2"></path></symbol>
+    <symbol id="icon-file-down" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"></path><path d="M14 2v6h6M12 11v7m-3-3 3 3 3-3"></path></symbol>
+    <symbol id="icon-trophy" viewBox="0 0 24 24"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0Z"></path><path d="M7 6H4v2a4 4 0 0 0 4 4M17 6h3v2a4 4 0 0 1-4 4"></path></symbol>
+    <symbol id="icon-file-sparkles" viewBox="0 0 24 24"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h8"></path><path d="M13 2v6h6M8 13h3M8 17h2"></path><path d="m18 14 .5 1.5L20 16l-1.5.5L18 18l-.5-1.5L16 16l1.5-.5ZM21 19l.3.7.7.3-.7.3-.3.7-.3-.7-.7-.3.7-.3Z"></path></symbol>
+    <symbol id="icon-rocket" viewBox="0 0 24 24"><path d="M4.5 16.5c-1.5 1.3-2 4-2 4s2.7-.5 4-2M9 15l-3-3s2-5 6-7.5C15.5 2.3 21 3 21 3s.7 5.5-1.5 9c-2.5 4-7.5 6-7.5 6l-3-3Z"></path><circle cx="15" cy="9" r="2"></circle></symbol>
+    <symbol id="icon-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"></path></symbol>
+    <symbol id="icon-file-text" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"></path><path d="M14 2v6h6M8 13h8M8 17h8M8 9h2"></path></symbol>
+    <symbol id="icon-terminal" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m7 9 3 3-3 3M13 15h4"></path></symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="m10 8 6 4-6 4Z"></path></symbol>
+    <symbol id="icon-presentation" viewBox="0 0 24 24"><path d="M3 3h18v12H3zM8 21l4-6 4 6M8 8h8M8 11h5"></path></symbol>
+    <symbol id="icon-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"></ellipse><path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"></path></symbol>
+    <symbol id="icon-rosette" viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"></circle><path d="m8.5 12-1.5 10 5-3 5 3-1.5-10"></path></symbol>
+    <symbol id="icon-star" viewBox="0 0 24 24"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-2.9-5.6 2.9 1.1-6.2L3 9.6l6.2-.9Z"></path></symbol>
+    <symbol id="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></symbol>
+    <symbol id="icon-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"></path></symbol>
+    <symbol id="icon-arrow-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"></path></symbol>
+    <symbol id="icon-arrow-up" viewBox="0 0 24 24"><path d="m6 10 6-6 6 6M12 4v16"></path></symbol>
+  </svg>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <div class="page-width topbar-inner">
+      <a class="site-name" href="#top">Yang Shi</a>
+      <div class="nav-actions">
+        <nav aria-label="Primary navigation">
+          <a href="#news">News</a>
+          <a href="#publications">Publications</a>
+          <a href="#awards">Award</a>
+        </nav>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false"><svg class="icon" aria-hidden="true"><use id="theme-icon-use" href="#icon-moon"></use></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-width" id="main">
+    <section class="profile" id="top" aria-labelledby="profile-name">
+      <img src="assets/avatar.png" alt="picture" width="382" height="382">
+      <div class="profile-info">
+        <h1 id="profile-name">Yang Shi</h1>
+        <div class="profile-details">
+          <p class="role"><svg class="icon info-icon" aria-hidden="true"><use href="#icon-graduation-cap"></use></svg><span>Undergraduate Student, School of Computer Science</span></p>
+          <p class="institution"><svg class="icon info-icon" aria-hidden="true"><use href="#icon-landmark"></use></svg><span>Guangdong University of Technology</span></p>
+          <p class="research-areas" aria-label="Research areas">
+            <svg class="icon info-icon" aria-hidden="true"><use href="#icon-network"></use></svg>
+            <span>Computer Vision</span>
+          </p>
+        </div>
+        <div class="profile-links">
+          <a href="mailto:sudo.shiyang@gmail.com">
+            <svg class="icon" aria-hidden="true"><use href="#icon-mail"></use></svg>
+            <span>sudo.shiyang@gmail.com</span>
+          </a>
+          <a href="https://scholar.google.com/citations?user=vbS_4mIAAAAJ" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" aria-hidden="true"><use href="#icon-graduation-cap"></use></svg>
+            <span>Google Scholar</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bio" aria-label="About Yang Shi">
+      <p>I am an undergraduate student at Guangdong University of Technology (expected 2027), focused on Computer Vision.</p>
+      <p>I approach visual AI through the lens of Spatial Intelligence&mdash;transforming chaotic generative spaces into structured, navigable environments. My research explores image editing, vision-language reasoning, and graph learning, investigating how transport dynamics and topological priors can make visual generation both highly controllable and logically dependable. I collaborate closely on these topics with <a href="https://luliangsi.github.io/" target="_blank" rel="noopener noreferrer">Liangsi Lu</a>.</p>
+    </section>
+
+    <section class="content-section" id="news" aria-labelledby="news-title">
+      <h2 class="visually-hidden" id="news-title">News</h2>
+      <div class="news-window">
+        <div class="news-window-header" aria-hidden="true">
+          <span>News</span>
+          <span>Updates · Scroll</span>
+        </div>
+        <div class="news-scroll" tabindex="0" aria-label="News updates. Scroll to view more.">
+          <ol class="news-list">
+            <li><svg class="icon news-item-icon important" aria-hidden="true"><use href="#icon-trophy"></use></svg><time datetime="2026-06">2026.06</time><p><strong>ChordEdit</strong> received the CVPR 2026 Best Student Paper Honorable Mention.</p></li>
+            <li><svg class="icon news-item-icon" aria-hidden="true"><use href="#icon-file-sparkles"></use></svg><time datetime="2026-05">2026.05</time><p>One paper was accepted to <strong>SIGKDD 2026</strong>.</p></li>
+            <li><svg class="icon news-item-icon" aria-hidden="true"><use href="#icon-file-sparkles"></use></svg><time datetime="2026-05">2026.05</time><p>One paper was accepted to <strong>ICML 2026</strong>.</p></li>
+            <li><svg class="icon news-item-icon" aria-hidden="true"><use href="#icon-file-sparkles"></use></svg><time datetime="2026-04">2026.04</time><p>One paper was accepted to <strong>ACL 2026 Main</strong>.</p></li>
+            <li><svg class="icon news-item-icon" aria-hidden="true"><use href="#icon-file-sparkles"></use></svg><time datetime="2026-02">2026.02</time><p>One paper was accepted to <strong>CVPR 2026</strong>.</p></li>
+            <li><svg class="icon news-item-icon" aria-hidden="true"><use href="#icon-file-sparkles"></use></svg><time datetime="2026-01">2026.01</time><p>One paper was accepted to <strong>WWW 2026</strong>.</p></li>
+            <li><svg class="icon news-item-icon" aria-hidden="true"><use href="#icon-rocket"></use></svg><time datetime="2025-05">2025.05</time><p>Received funding from the <strong>National College Students' Innovation and Entrepreneurship Program</strong>.</p></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading">
+        <div>
+          <h2 id="publications-title">Selected Publications</h2>
+          <p><sup>*</sup> Equal contribution · <sup>†</sup> Corresponding author</p>
+        </div>
+        <a class="section-all-link" href="https://scholar.google.com/citations?user=vbS_4mIAAAAJ" target="_blank" rel="noopener noreferrer"><span>Full list on Google Scholar</span><svg class="icon" aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg></a>
+      </div>
+
+      <div class="publication-list">
+        <article class="publication">
+          <time datetime="2026">2026</time>
+          <div class="publication-body">
+            <h3>Over-squashing as Transport Congestion: A Sandpile Dynamics Perspective</h3>
+            <p class="authors"><strong>Yang Shi</strong>, Lixian Chen, Jingchao Wang, Minzhe Guo, Mingxuan Huang, Yanhui Chen, Yifeng Xie, Xuhang Chen, Liangsi Lu<sup>†</sup></p>
+            <p class="venue">SIGKDD 2026 (CCF-A)</p>
+            <p class="pub-links"><a href="https://sandpile-gnn.github.io/" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-globe"></use></svg><span>Project</span></a></p>
+          </div>
+        </article>
+
+        <article class="publication">
+          <time datetime="2026">2026</time>
+          <div class="publication-body">
+            <h3>Semantic Granularity Navigation in Image Editing</h3>
+            <p class="authors">Liangsi Lu, Minzhe Guo, Xuhang Chen, <strong>Yang Shi</strong><sup>†</sup></p>
+            <p class="venue">ICML 2026 (CCF-A)</p>
+            <p class="pub-links">
+              <a href="https://naviedit.github.io/" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-globe"></use></svg><span>Project</span></a>
+              <a href="https://arxiv.org/abs/2605.21190" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-file-text"></use></svg><span>ArXiv</span></a>
+            </p>
+          </div>
+        </article>
+
+        <article class="publication">
+          <time datetime="2026">2026</time>
+          <div class="publication-body">
+            <h3>MMErroR: A Benchmark for Erroneous Reasoning in Vision-Language Models</h3>
+            <p class="authors"><strong>Yang Shi</strong>, Yifeng Xie, Minzhe Guo, Liangsi Lu, Mingxuan Huang, Jingchao Wang, Zhihong Zhu, Boyan Xu<sup>†</sup>, Zhiqi Huang</p>
+            <p class="venue">ACL 2026 Main (CCF-A)</p>
+            <p class="pub-links">
+              <a href="https://mmerror-benchmark.github.io" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-globe"></use></svg><span>Project</span></a>
+              <a href="https://arxiv.org/abs/2601.03331" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-file-text"></use></svg><span>ArXiv</span></a>
+              <a href="https://huggingface.co/datasets/s-u-do/mmerror-benchmark" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-database"></use></svg><span>Dataset</span></a>
+              <a href="https://github.com/code-here-in/MMerroR-Evaluation" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-terminal"></use></svg><span>Code</span></a>
+            </p>
+          </div>
+        </article>
+
+        <article class="publication">
+          <time datetime="2026">2026</time>
+          <div class="publication-body">
+            <h3>ChordEdit: One-Step Low-Energy Transport for Image Editing</h3>
+            <p class="authors">Liangsi Lu, Xuhang Chen, Minzhe Guo, Shichu Li, Jingchao Wang, <strong>Yang Shi</strong><sup>†</sup></p>
+            <p class="venue">CVPR 2026 (CCF-A) <span class="award">Best Student Paper Honorable Mention</span></p>
+            <p class="pub-links">
+              <a href="https://chordedit.github.io/" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-globe"></use></svg><span>Project</span></a>
+              <a href="https://arxiv.org/abs/2602.19083" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-file-text"></use></svg><span>ArXiv</span></a>
+              <a href="https://github.com/ChordEdit/ChordEdit" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-terminal"></use></svg><span>Code</span></a>
+              <a href="https://www.youtube.com/watch?v=cgwRTLJpvE4&amp;t=14s" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-play"></use></svg><span>Video</span></a>
+              <a href="https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/38895.png?t=1779175316.3100607" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-presentation"></use></svg><span>Poster</span></a>
+            </p>
+          </div>
+        </article>
+
+        <article class="publication">
+          <time datetime="2026">2026</time>
+          <div class="publication-body">
+            <h3>Riemannian Liquid Spatio-Temporal Graph Network</h3>
+            <p class="authors">Liangsi Lu, Jingchao Wang, Zhaorong Dai, Hanqian Liu, <strong>Yang Shi</strong><sup>†</sup></p>
+            <p class="venue">WWW 2026 (CCF-A, Oral)</p>
+            <p class="pub-links">
+              <a href="https://rlstg.github.io/" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-globe"></use></svg><span>Project</span></a>
+              <a href="https://dl.acm.org/doi/10.1145/3774904.3792090" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-file-text"></use></svg><span>Paper</span></a>
+              <a href="https://arxiv.org/abs/2601.14115" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-file-text"></use></svg><span>ArXiv</span></a>
+              <a href="https://github.com/RLSTG/RLSTG" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-terminal"></use></svg><span>Code</span></a>
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section award-section" id="awards" aria-labelledby="awards-title">
+      <h2 class="award-heading" id="awards-title"><svg class="icon award-heading-icon" aria-hidden="true"><use href="#icon-rosette"></use></svg><span>Award</span></h2>
+      <article class="award-item">
+        <time datetime="2026">2026</time>
+        <div>
+          <h3 style="font-variant-numeric: lining-nums; font-feature-settings: 'lnum';">
+            <a href="https://www.thecvf.com/?page_id=413#CVPRBestHonorable" target="_blank" rel="noopener noreferrer">
+              <svg class="icon award-star" aria-hidden="true"><use href="#icon-star"></use></svg>
+              <span>CVPR 2026 Best Student Paper Honorable Mention</span>
+            </a>
+          </h3>
+          <p class="venue" style="margin-top: 4px; margin-left: 22px;">
+            Awarded for paper: <strong style="color: var(--heading); font-weight: 600;">ChordEdit: One-Step Low-Energy Transport for Image Editing</strong>
+          </p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="page-width footer-inner">
+      <span>© 2026 Yang Shi</span>
+      <div class="footer-links">
+        <a class="footer-action" href="mailto:sudo.shiyang@gmail.com"><svg class="icon" aria-hidden="true"><use href="#icon-mail"></use></svg><span>Email</span></a>
+        <a class="footer-action" href="https://scholar.google.com/citations?user=vbS_4mIAAAAJ" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-graduation-cap"></use></svg><span>Google Scholar</span></a>
+        <a class="footer-action" href="#top"><span>Back to top</span><svg class="icon" aria-hidden="true"><use href="#icon-arrow-up"></use></svg></a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
