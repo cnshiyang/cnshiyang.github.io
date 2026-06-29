@@ -12,7 +12,7 @@
     themeIconUse.setAttribute('href', isDark ? '#icon-sun' : '#icon-moon');
     toggle.setAttribute('aria-label', `Switch to ${isDark ? 'light' : 'dark'} mode`);
     toggle.setAttribute('aria-pressed', String(isDark));
-    themeMeta.setAttribute('content', isDark ? '#171716' : '#fbfbf8');
+    themeMeta.setAttribute('content', isDark ? '#171716' : '#ffffff');
     if (remember) localStorage.setItem('yang-shi-theme', theme);
   }
 
