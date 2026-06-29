@@ -7,8 +7,8 @@
   --muted: #73736d;
   --line: #eff0eb;
   --blue: #4257bd;
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
-  --font-serif: ui-serif, Charter, "Bitstream Charter", "Sitka Text", Cambria, Baskerville, Georgia, "Times New Roman", "Songti SC", SimSun, serif;
+  --font-sans: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-serif: Constantia, Georgia, "Times New Roman", "Songti SC", SimSun, serif;
 }
 
 html[data-theme="dark"] {
@@ -35,9 +35,10 @@ body {
   color: var(--text);
   font-family: var(--font-sans);
   font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.002em;
+  line-height: 1.65;
+  letter-spacing: 0;
   transition: background-color 0.25s ease, color 0.25s ease;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -140,7 +141,7 @@ html[data-theme="dark"] ::selection {
 .site-name {
   color: var(--heading);
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -214,9 +215,9 @@ html[data-theme="dark"] .profile > img:hover {
 .profile-info h1 {
   margin: 0 0 16px;
   color: var(--heading);
-  font-size: 30px;
+  font-size: 34px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.12;
   letter-spacing: 0;
 }
 
@@ -247,21 +248,21 @@ html[data-theme="dark"] .profile > img:hover {
 
 .role {
   color: var(--muted);
-  font-size: 13.5px;
-  line-height: 1.5;
+  font-size: 14px;
+  line-height: 1.55;
 }
 
 .institution {
   color: var(--muted);
-  font-size: 13.5px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
 .research-areas {
   color: var(--muted);
-  font-size: 13.5px;
-  line-height: 1.5;
+  font-size: 14px;
+  line-height: 1.55;
 }
 
 .research-areas span {
@@ -283,8 +284,8 @@ html[data-theme="dark"] .profile > img:hover {
   border: 1px solid var(--line);
   border-radius: 999px;
   color: var(--text);
-  font-size: 13px;
-  line-height: 1.2;
+  font-size: 14px;
+  line-height: 1.25;
   text-decoration: none;
   transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
@@ -317,8 +318,9 @@ html[data-theme="dark"] .profile > img:hover {
 }
 
 .bio p {
-  margin: 0 0 14px;
-  font-size: 15.5px;
+  margin: 0 0 16px;
+  font-size: 17px;
+  line-height: 1.72;
 }
 
 .bio strong { color: var(--heading); }
@@ -349,10 +351,26 @@ html[data-theme="dark"] .profile > img:hover {
   padding-bottom: 14px;
   border-bottom: 1px solid var(--line);
   color: var(--heading);
-  font-size: 21px;
+  font-size: 22px;
   font-weight: 500;
-  line-height: 1.35;
-  letter-spacing: -0.015em;
+  line-height: 1.28;
+  letter-spacing: -0.005em;
+}
+
+/* Keep the three visible section titles on one exact vertical axis. */
+#news .news-window-header > span:first-child,
+#publications .section-heading h2,
+#awards > #awards-title {
+  margin-left: 0;
+  padding-left: 0;
+  text-indent: 0;
+}
+
+/* Award is a text-only section title. */
+#awards > #awards-title .icon,
+#awards > #awards-title::before {
+  display: none !important;
+  content: none !important;
 }
 
 .news-list {
@@ -376,15 +394,16 @@ html[data-theme="dark"] .profile > img:hover {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding: 0 18px;
+  padding: 0 18px 0 0;
   border-bottom: 1px solid var(--line);
 }
 
 .news-window-header span:first-child {
   color: var(--heading);
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
-  letter-spacing: -0.015em;
+  line-height: 1.28;
+  letter-spacing: -0.005em;
 }
 
 .news-window-header span:last-child {
@@ -458,7 +477,7 @@ html[data-theme="dark"] .profile > img:hover {
 .news-list p {
   margin: 0;
   font-size: 15px;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
 .section-heading {
@@ -479,12 +498,12 @@ html[data-theme="dark"] .profile > img:hover {
 .section-heading p {
   margin: 4px 0 0;
   color: var(--muted);
-  font-size: 12.5px;
+  font-size: 13px;
 }
 
 .section-heading > a {
   flex: 0 0 auto;
-  font-size: 12.5px;
+  font-size: 13px;
 }
 
 .section-all-link,
@@ -522,10 +541,10 @@ html[data-theme="dark"] .profile > img:hover {
 .award-item h3 {
   margin: 0 0 6px;
   color: var(--heading);
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 1.33;
-  letter-spacing: 0.01em;
+  line-height: 1.36;
+  letter-spacing: 0;
   text-wrap: balance;
 }
 
@@ -534,7 +553,7 @@ html[data-theme="dark"] .profile > img:hover {
 .authors {
   color: var(--muted);
   font-size: 14px;
-  line-height: 1.56;
+  line-height: 1.6;
 }
 
 .authors strong {
@@ -544,13 +563,13 @@ html[data-theme="dark"] .profile > img:hover {
 
 .venue {
   color: var(--muted);
-  font-size: 13.5px;
+  font-size: 14px;
 }
 
 .award {
   margin-left: 4px;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14px;
   font-style: italic;
 }
 
@@ -570,7 +589,7 @@ html[data-theme="dark"] .profile > img:hover {
   align-items: center;
   gap: 6px;
   color: var(--muted);
-  font-size: 12.5px;
+  font-size: 13px;
 }
 
 .pub-links .icon { width: 13px; height: 13px; }
@@ -598,18 +617,6 @@ html[data-theme="dark"] .profile > img:hover {
 
 .award-item h3 a:hover { color: var(--blue); }
 
-.award-heading {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.award-heading-icon {
-  width: 18px;
-  height: 18px;
-  color: var(--muted);
-}
-
 .award-star {
   width: 14px;
   height: 14px;
@@ -631,7 +638,7 @@ footer {
   gap: 28px;
   padding: 18px 0;
   border-top: 1px solid var(--line);
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .footer-links {
@@ -673,7 +680,7 @@ footer {
 @media (max-width: 620px) {
   .page-width { width: calc(100% - 36px); }
   .topbar nav { gap: 15px; }
-  .topbar nav a { font-size: 11.5px; }
+  .topbar nav a { font-size: 12px; }
   .nav-actions { gap: 12px; }
   .profile {
     grid-template-columns: 108px 1fr;
@@ -688,24 +695,24 @@ footer {
     border-radius: 6px;
   }
 
-  .profile-info h1 { margin-bottom: 12px; font-size: 25px; }
+  .profile-info h1 { margin-bottom: 12px; font-size: 27px; }
 
-  .role { font-size: 12px; }
-  .institution { font-size: 12px; }
+  .role { font-size: 12.5px; }
+  .institution { font-size: 12.5px; }
   .profile-details { row-gap: 6px; }
   .role,
   .institution,
   .research-areas { grid-template-columns: 14px minmax(0, 1fr); column-gap: 7px; }
   .info-icon { width: 12px; height: 12px; }
-  .research-areas { font-size: 11px; }
+  .research-areas { font-size: 12.5px; }
   .profile-links { display: flex; gap: 6px; margin-top: 13px; }
-  .profile-links a { padding: 5px 8px; font-size: 11.5px; }
+  .profile-links a { padding: 5px 8px; font-size: 12px; }
   .profile-links .icon { width: 12px; height: 12px; }
-  .bio p { font-size: 15px; }
+  .bio p { font-size: 16px; line-height: 1.7; }
   .content-section { padding-top: 38px; }
-  .content-section h2 { font-size: 20px; }
-  .news-window-header { min-height: 42px; padding: 0 14px; }
-  .news-window-header span:first-child { font-size: 19px; }
+  .content-section h2 { font-size: 21px; }
+  .news-window-header { min-height: 42px; padding: 0 14px 0 0; }
+  .news-window-header span:first-child { font-size: 21px; }
   .news-window-header span:last-child { font-size: 9.5px; }
   .news-scroll { max-height: 290px; }
   .news-list li { grid-template-columns: 15px 67px minmax(0, 1fr); gap: 8px; }
@@ -715,17 +722,17 @@ footer {
   .section-heading { display: block; }
   .section-heading > a { display: inline-block; margin-top: 10px; }
   .publication { grid-template-columns: 46px minmax(0, 1fr); gap: 12px; padding: 19px 0 21px; }
-  .publication h3 { font-size: 17px; }
-  .authors { font-size: 13px; }
+  .publication h3 { font-size: 18px; }
+  .authors { font-size: 13.5px; }
   .venue { font-size: 13px; }
   .award { display: inline; margin: 0 0 0 3px; font-size: 12.5px; }
   .pub-links { gap: 8px 15px; }
-  .pub-links a { font-size: 12px; }
+  .pub-links a { font-size: 12.5px; }
   .award-section { padding-bottom: 42px; }
   .award-item { grid-template-columns: 46px minmax(0, 1fr); gap: 12px; }
   .publication > time,
-  .award-item > time { font-size: 10.5px; }
-  .award-item h3 { font-size: 17px; }
+  .award-item > time { font-size: 11px; }
+  .award-item h3 { font-size: 18px; }
   .award-item p { font-size: 13px; }
   .footer-inner {
     display: block;
@@ -737,7 +744,7 @@ footer {
 @media (max-width: 390px) {
   .profile { grid-template-columns: 94px 1fr; gap: 16px; }
   .profile > img { width: 94px; height: 94px; }
-  .profile-info h1 { font-size: 22px; }
+  .profile-info h1 { font-size: 24px; }
   .profile-info p { font-size: 12px; }
 }
 
