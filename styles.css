@@ -297,7 +297,11 @@ html[data-theme="dark"] .profile > img:hover {
   transform: translateY(-1px);
 }
 
-.profile-links .icon { width: 13px; height: 13px; }
+.profile-links .icon {
+  width: 13px;
+  height: 13px;
+  transform: translateY(1px);
+}
 
 .pub-links a {
   background-image: linear-gradient(var(--blue), var(--blue));
