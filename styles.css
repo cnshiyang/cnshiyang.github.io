@@ -72,8 +72,13 @@ html[data-theme="dark"] ::selection {
   z-index: 20;
   padding: 6px 10px;
   background: var(--heading);
-  color: #fff;
+  color: var(--background);
   transform: translateY(-150%);
+}
+
+.skip-link:hover,
+.skip-link:focus {
+  color: var(--background);
 }
 
 .skip-link:focus { transform: translateY(0); }
@@ -540,6 +545,22 @@ html[data-theme="dark"] .profile > img:hover {
   line-height: 1.12;
 }
 
+.publication-year-heading {
+  margin: 0;
+  padding: 28px 0 12px;
+  border-bottom: 1px solid var(--line);
+  color: var(--heading);
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.publication-year .publication {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+}
+
 .publication {
   display: grid;
   grid-template-columns: 76px minmax(0, 1fr);
@@ -742,6 +763,7 @@ footer {
   .section-heading > a { display: inline-block; margin-top: 10px; }
   .publication-page { padding: 40px 0 42px; }
   .publication-page-heading h1 { font-size: 27px; }
+  .publication-year-heading { padding-top: 22px; font-size: 19px; }
   .publication { grid-template-columns: 46px minmax(0, 1fr); gap: 12px; padding: 19px 0 21px; }
   .publication h3 { font-size: 18px; }
   .authors { font-size: 13.5px; }
