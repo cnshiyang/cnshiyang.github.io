@@ -159,6 +159,8 @@ html[data-theme="dark"] ::selection {
 
 .topbar nav a:hover { color: var(--heading); }
 
+.topbar nav a[aria-current="page"] { color: var(--heading); }
+
 .theme-toggle {
   display: inline-flex;
   width: 30px;
@@ -317,7 +319,7 @@ html[data-theme="dark"] .profile > img:hover {
 }
 
 .bio {
-  max-width: 960px;
+  width: 100%;
   padding: 10px 0 30px;
 }
 
@@ -325,6 +327,7 @@ html[data-theme="dark"] .profile > img:hover {
   margin: 0 0 16px;
   font-size: 17px;
   line-height: 1.72;
+  text-wrap: pretty;
 }
 
 .bio strong { color: var(--heading); }
@@ -418,9 +421,8 @@ html[data-theme="dark"] .profile > img:hover {
 }
 
 .news-scroll {
-  max-height: 245px;
+  max-height: 230px;
   overflow-y: auto;
-  overscroll-behavior: contain;
   scrollbar-color: transparent transparent;
   scrollbar-gutter: stable;
   scrollbar-width: thin;
@@ -524,6 +526,19 @@ html[data-theme="dark"] .profile > img:hover {
 }
 
 .publication-list { padding-bottom: 0; }
+
+.publication-page {
+  padding: 80px 0 52px;
+}
+
+.publication-page-heading h1 {
+  margin: 0;
+  color: var(--heading);
+  font-family: var(--font-serif);
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.12;
+}
 
 .publication {
   display: grid;
@@ -717,14 +732,16 @@ footer {
   .content-section h2 { font-size: 21px; }
   .news-window-header { min-height: 42px; padding: 0 14px 0 0; }
   .news-window-header span:first-child { font-size: 21px; }
-  .news-window-header span:last-child { font-size: 9.5px; }
-  .news-scroll { max-height: 290px; }
+  .news-window-header span:last-child { font-size: 11px; }
+  .news-scroll { max-height: 330px; }
   .news-list li { grid-template-columns: 15px 67px minmax(0, 1fr); gap: 8px; }
   .news-list li { padding: 10px 14px; }
-  .news-list time { font-size: 9.5px; }
+  .news-list time { font-size: 11px; }
   .news-list p { font-size: 14px; }
   .section-heading { display: block; }
   .section-heading > a { display: inline-block; margin-top: 10px; }
+  .publication-page { padding: 40px 0 42px; }
+  .publication-page-heading h1 { font-size: 27px; }
   .publication { grid-template-columns: 46px minmax(0, 1fr); gap: 12px; padding: 19px 0 21px; }
   .publication h3 { font-size: 18px; }
   .authors { font-size: 13.5px; }
