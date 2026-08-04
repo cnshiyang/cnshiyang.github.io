@@ -101,6 +101,7 @@ html[data-theme="dark"] ::selection {
 }
 
 .icon {
+  display: block;
   width: 14px;
   height: 14px;
   flex: 0 0 auto;
@@ -109,7 +110,7 @@ html[data-theme="dark"] ::selection {
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 1.5;
-  transform: translateY(-0.5px);
+  transform: none;
 }
 
 .topbar {
@@ -307,7 +308,6 @@ html[data-theme="dark"] .profile > img:hover {
 .profile-links .icon {
   width: 13px;
   height: 13px;
-  transform: translateY(1px);
 }
 
 .pub-links a {
@@ -472,7 +472,7 @@ html[data-theme="dark"] .profile > img:hover {
 .news-item-icon {
   width: 14px;
   height: 14px;
-  margin-top: 4px;
+  margin-top: 4.5px;
   color: var(--muted);
 }
 
@@ -649,7 +649,7 @@ html[data-theme="dark"] .profile > img:hover {
 
 .award-item h3 a {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 8px;
   color: inherit;
   text-decoration: none;
@@ -660,6 +660,7 @@ html[data-theme="dark"] .profile > img:hover {
 .award-star {
   width: 14px;
   height: 14px;
+  margin-top: calc((1.36em - 14px) / 2);
   color: var(--blue);
 }
 
@@ -757,6 +758,7 @@ footer {
   .news-scroll { max-height: 330px; }
   .news-list li { grid-template-columns: 15px 67px minmax(0, 1fr); gap: 8px; }
   .news-list li { padding: 10px 14px; }
+  .news-item-icon { margin-top: 4px; }
   .news-list time { font-size: 11px; }
   .news-list p { font-size: 14px; }
   .section-heading { display: block; }
