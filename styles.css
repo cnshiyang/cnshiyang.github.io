@@ -371,6 +371,52 @@ html[data-theme="dark"] .profile > img:hover {
   letter-spacing: -0.005em;
 }
 
+.education-list {
+  border-bottom: 1px solid var(--line);
+}
+
+.education-item {
+  display: grid;
+  grid-template-columns: 76px 46px minmax(0, 1fr);
+  align-items: center;
+  column-gap: 14px;
+  padding: 20px 0 22px;
+  border-top: 1px solid var(--line);
+}
+
+.education-item:first-child {
+  border-top: 0;
+  padding-top: 2px;
+}
+
+.education-date {
+  color: var(--muted);
+  font-size: 12px;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.education-logo {
+  display: block;
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+}
+
+.education-item h3 {
+  margin: 0 0 3px;
+  color: var(--heading);
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.36;
+}
+
+.education-item p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
 /* Keep the three visible section titles on one exact vertical axis. */
 #news .news-window-header > span:first-child,
 #publications .section-heading h2,
@@ -700,6 +746,7 @@ footer {
 
 .profile,
 .bio,
+#education,
 #news,
 #publications,
 #awards {
@@ -710,8 +757,9 @@ footer {
 
 .bio { animation-delay: 0.1s; }
 #news { animation-delay: 0.2s; }
-#publications { animation-delay: 0.3s; }
-#awards { animation-delay: 0.4s; }
+#education { animation-delay: 0.3s; }
+#publications { animation-delay: 0.4s; }
+#awards { animation-delay: 0.5s; }
 
 @keyframes enter-up {
   to {
@@ -754,6 +802,12 @@ footer {
   .bio p { font-size: 16px; line-height: 1.7; }
   .content-section { padding-top: 38px; }
   .content-section h2 { font-size: 21px; }
+  .education-item { grid-template-columns: 67px 40px minmax(0, 1fr); column-gap: 8px; padding: 16px 0 18px; }
+  .education-item:first-child { padding-top: 0; }
+  .education-date { font-size: 11px; }
+  .education-logo { width: 40px; height: 40px; }
+  .education-item h3 { font-size: 18px; }
+  .education-item p { font-size: 13px; }
   .news-window-header { min-height: 42px; padding: 0 14px 0 0; }
   .news-window-header span:first-child { font-size: 21px; }
   .news-window-header span:last-child { font-size: 11px; }
@@ -801,6 +855,7 @@ footer {
   .profile > img:hover { transform: none; }
   .profile,
   .bio,
+  #education,
   #news,
   #publications,
   #awards {
