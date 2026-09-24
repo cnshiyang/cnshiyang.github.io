@@ -189,11 +189,13 @@ html[data-theme="dark"] ::selection {
 
 .profile {
   display: grid;
-  grid-template-columns: 184px 1fr;
+  grid-template-columns: 184px minmax(0, 1fr);
   align-items: center;
   gap: 48px;
   padding: 80px 0 60px;
 }
+
+.profile-info { min-width: 0; }
 
 .profile > img {
   display: block;
@@ -724,7 +726,7 @@ footer {
   .topbar nav a { font-size: 12px; }
   .nav-actions { gap: 12px; }
   .profile {
-    grid-template-columns: 108px 1fr;
+    grid-template-columns: 108px minmax(0, 1fr);
     align-items: start;
     gap: 20px;
     padding: 40px 0 32px;
@@ -787,7 +789,7 @@ footer {
 }
 
 @media (max-width: 390px) {
-  .profile { grid-template-columns: 94px 1fr; gap: 16px; }
+  .profile { grid-template-columns: 94px minmax(0, 1fr); gap: 16px; }
   .profile > img { width: 94px; height: 94px; }
   .profile-info h1 { font-size: 24px; }
   .profile-info p { font-size: 12px; }
