@@ -290,8 +290,12 @@ html[data-theme="dark"] .profile > img:hover {
   height: 14px;
   margin-top: 0;
   color: var(--muted);
-  transform: none;
+  /* Align the visible icon with the text glyphs, not just their line boxes. */
+  transform: translateY(0.08em);
 }
+
+.institution .info-icon { transform: translateY(0.1em); }
+.profile-email .info-icon { transform: translateY(0.16em); }
 
 .role,
 .profile-email {
