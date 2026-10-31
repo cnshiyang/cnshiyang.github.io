@@ -10,6 +10,14 @@
   --accent: #913848;
   --font-sans: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
   --font-serif: Constantia, Georgia, "Times New Roman", "Songti SC", SimSun, serif;
+  --entry-title-font-size: 20px;
+  --detail-font-size: 15px;
+  --link-font-size: 14px;
+  --date-font-size: 15px;
+  --entry-year-font-size: 17px;
+  --entry-date-column: 86px;
+  --entry-column-gap: 20px;
+  --entry-padding: 28px;
 }
 
 html[data-theme="dark"] {
@@ -69,7 +77,7 @@ html[data-theme="dark"] ::selection {
 }
 
 .page-width {
-  width: min(1000px, calc(100% - 64px));
+  width: min(980px, calc(100% - 64px));
   margin-inline: auto;
 }
 
@@ -294,8 +302,9 @@ html[data-theme="dark"] .profile > img:hover {
   transform: translateY(0.08em);
 }
 
-.institution .info-icon { transform: translateY(0.1em); }
-.profile-email .info-icon { transform: translateY(0.16em); }
+/* Match the first row's optical alignment, accounting for each icon's strokes. */
+.institution .info-icon { transform: translateY(-0.03em); }
+.profile-email .info-icon { transform: translateY(0.14em); }
 
 .role,
 .profile-email {
@@ -394,9 +403,9 @@ html[data-theme="dark"] .profile > img:hover {
 
 .education-item {
   display: grid;
-  grid-template-columns: 86px 48px minmax(0, 1fr);
+  grid-template-columns: var(--entry-date-column) 48px minmax(0, 1fr);
   align-items: center;
-  column-gap: 20px;
+  column-gap: var(--entry-column-gap);
   padding: 24px 0;
   border-top: 1px solid var(--line);
 }
@@ -406,10 +415,35 @@ html[data-theme="dark"] .profile > img:hover {
   padding-top: 2px;
 }
 
-.education-date {
+.education-date,
+.news-list time,
+.publication > time,
+.award-item > time {
+  align-self: center;
+  padding: 0;
   color: var(--muted);
-  font-size: 12px;
+  font-size: var(--date-font-size);
+  font-weight: 400;
+  line-height: 1.5;
   font-variant-numeric: lining-nums tabular-nums;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.publication > time,
+.award-item > time {
+  /* Center in the date column and against the complete entry, including its details. */
+  place-self: center;
+  font-size: var(--entry-year-font-size);
+}
+
+.education-date {
+  display: grid;
+  /* Reserve the end-year track so ongoing ranges keep the same dash position. */
+  grid-template-columns: 4ch max-content 4ch;
+  column-gap: 0.2em;
+  align-items: center;
+  justify-content: center;
 }
 
 .education-logo {
@@ -423,7 +457,7 @@ html[data-theme="dark"] .profile > img:hover {
   margin: 0 0 3px;
   color: var(--heading);
   font-family: var(--font-serif);
-  font-size: 20px;
+  font-size: var(--entry-title-font-size);
   font-weight: 400;
   line-height: 1.36;
 }
@@ -431,7 +465,8 @@ html[data-theme="dark"] .profile > img:hover {
 .education-item p {
   margin: 0;
   color: var(--muted);
-  font-size: 14px;
+  font-size: var(--detail-font-size);
+  line-height: 1.6;
 }
 
 /* Keep the section titles on one exact vertical axis. */
@@ -545,15 +580,9 @@ html[data-theme="dark"] .profile > img:hover {
 
 .news-item-icon.important { color: var(--accent); }
 
-.news-list time {
-  color: var(--muted);
-  font-size: 12px;
-  font-variant-numeric: tabular-nums;
-}
-
 .news-list p {
   margin: 0;
-  font-size: 15px;
+  font-size: var(--detail-font-size);
   line-height: 1.55;
 }
 
@@ -575,12 +604,12 @@ html[data-theme="dark"] .profile > img:hover {
 .section-heading p {
   margin: 4px 0 0;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .section-heading > a {
   flex: 0 0 auto;
-  font-size: 13px;
+  font-size: var(--link-font-size);
 }
 
 .section-all-link,
@@ -627,8 +656,9 @@ html[data-theme="dark"] .profile > img:hover {
   border-bottom: 1px solid var(--line);
   color: var(--heading);
   font-family: var(--font-serif);
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 500;
+  font-variant-numeric: lining-nums tabular-nums;
   line-height: 1.3;
 }
 
@@ -637,27 +667,24 @@ html[data-theme="dark"] .profile > img:hover {
   gap: 0;
 }
 
-.publication {
+.publication,
+.award-item {
   display: grid;
-  grid-template-columns: 86px minmax(0, 1fr);
-  gap: 20px;
-  padding: 26px 0 28px;
-  border-bottom: 1px solid var(--line);
+  grid-template-columns: var(--entry-date-column) minmax(0, 1fr);
+  align-items: center;
+  gap: var(--entry-column-gap);
+  padding: var(--entry-padding) 0;
 }
 
-.publication > time,
-.award-item > time {
-  padding-top: 2px;
-  color: var(--muted);
-  font-size: 12px;
-  font-variant-numeric: lining-nums tabular-nums;
+.publication {
+  border-bottom: 1px solid var(--line);
 }
 
 .publication h3,
 .award-item h3 {
   margin: 0 0 6px;
   color: var(--heading);
-  font-size: 20px;
+  font-size: var(--entry-title-font-size);
   font-weight: 400;
   line-height: 1.36;
   letter-spacing: 0;
@@ -668,7 +695,7 @@ html[data-theme="dark"] .profile > img:hover {
 
 .authors {
   color: var(--muted);
-  font-size: 14px;
+  font-size: var(--detail-font-size);
   line-height: 1.6;
 }
 
@@ -679,14 +706,15 @@ html[data-theme="dark"] .profile > img:hover {
 
 .venue {
   color: var(--text);
-  font-size: 14px;
+  font-size: var(--detail-font-size);
+  line-height: 1.6;
 }
 
 .award {
   margin-left: 4px;
-  color: var(--accent);
-  font-size: 14px;
-  font-style: italic;
+  color: inherit;
+  font-size: inherit;
+  font-style: normal;
 }
 
 .award::before {
@@ -705,7 +733,7 @@ html[data-theme="dark"] .profile > img:hover {
   align-items: center;
   gap: 6px;
   color: var(--muted);
-  font-size: 13px;
+  font-size: var(--link-font-size);
 }
 
 .pub-links .icon { width: 13px; height: 13px; }
@@ -713,14 +741,12 @@ html[data-theme="dark"] .profile > img:hover {
 .publication:hover .pub-links a:hover { color: var(--accent); }
 
 .award-section {
-  padding-bottom: 52px;
+  padding-bottom: 24px;
 }
 
-.award-item {
-  display: grid;
-  grid-template-columns: 86px minmax(0, 1fr);
-  gap: 20px;
-  padding-top: 3px;
+.award-section > h2 {
+  /* Let the entry own equal spacing above and below the centered date. */
+  margin-bottom: 0;
 }
 
 .award-item h3 a {
@@ -803,6 +829,16 @@ footer {
 }
 
 @media (max-width: 620px) {
+  :root {
+    --entry-title-font-size: 18px;
+    --detail-font-size: 14px;
+    --link-font-size: 13px;
+    --date-font-size: 14px;
+    --entry-year-font-size: 16px;
+    --entry-date-column: 46px;
+    --entry-column-gap: 12px;
+    --entry-padding: 21px;
+  }
   .page-width { width: calc(100% - 36px); }
   .topbar nav { gap: 15px; }
   .topbar nav a { font-size: 12px; }
@@ -840,34 +876,21 @@ footer {
   .content-section h2 { font-size: 23px; }
   .education-item { grid-template-columns: 42px minmax(0, 1fr); gap: 5px 16px; padding: 20px 0; }
   .education-item:first-child { padding-top: 0; }
-  .education-date { grid-column: 2; grid-row: 2; font-size: 12px; }
+  .education-date { grid-column: 2; grid-row: 2; justify-content: start; }
   .education-logo { grid-column: 1; grid-row: 1 / 3; width: 42px; height: 42px; }
   .education-details { grid-column: 2; grid-row: 1; }
-  .education-item h3 { font-size: 18px; }
-  .education-item p { font-size: 13px; }
   .news-window-header > span { font-size: 11px; }
   .news-scroll { max-height: 330px; }
   .news-list li { grid-template-columns: 14px 54px minmax(0, 1fr); gap: 8px; padding: 12px 8px 12px 0; }
-  .news-list time { font-size: 11px; }
-  .news-list p { font-size: 14px; }
   .section-heading { display: block; }
   .section-heading > a { display: inline-flex; margin-top: 12px; }
   .publication-page { padding: 40px 0 42px; }
   .publication-page-heading h1 { font-size: 34px; }
-  .publication-year-heading { padding-top: 22px; font-size: 19px; }
-  .publication { grid-template-columns: 46px minmax(0, 1fr); gap: 12px; padding: 19px 0 21px; }
-  .publication h3 { font-size: 18px; }
-  .authors { font-size: 13.5px; }
-  .venue { font-size: 13px; }
-  .award { display: inline; margin: 0 0 0 3px; font-size: 12.5px; }
+  .publication-year-heading { padding-top: 22px; font-size: 22px; }
+  .award { display: inline; margin: 0 0 0 3px; }
   .pub-links { gap: 8px 15px; }
-  .pub-links a { min-height: 28px; font-size: 12.5px; }
-  .award-section { padding-bottom: 42px; }
-  .award-item { grid-template-columns: 46px minmax(0, 1fr); gap: 12px; }
-  .publication > time,
-  .award-item > time { font-size: 11px; }
-  .award-item h3 { font-size: 18px; }
-  .award-item p { font-size: 13px; }
+  .pub-links a { min-height: 28px; }
+  .award-section { padding-bottom: 21px; }
   .footer-inner {
     display: block;
     padding: 18px 0;
