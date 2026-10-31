@@ -55,6 +55,7 @@
       <div class="nav-actions">
         <nav aria-label="Primary navigation">
           <a href="#news">News</a>
+          <a href="#education">Education</a>
           <a href="#publications">Publications</a>
           <a href="#awards">Award</a>
         </nav>
@@ -71,16 +72,7 @@
         <div class="profile-details">
           <p class="role"><svg class="icon info-icon" aria-hidden="true"><use href="#icon-graduation-cap"></use></svg><span>Master's Student</span></p>
           <p class="institution"><svg class="icon info-icon" aria-hidden="true"><use href="#icon-landmark"></use></svg><span>Peking University</span></p>
-        </div>
-        <div class="profile-links">
-          <a href="mailto:sudo.shiyang@gmail.com">
-            <svg class="icon" aria-hidden="true"><use href="#icon-mail"></use></svg>
-            <span>sudo.shiyang@gmail.com</span>
-          </a>
-          <a href="https://scholar.google.com/citations?user=vbS_4mIAAAAJ" target="_blank" rel="noopener noreferrer">
-            <svg class="icon" aria-hidden="true"><use href="#icon-graduation-cap"></use></svg>
-            <span>Google Scholar</span>
-          </a>
+          <p class="profile-email"><svg class="icon info-icon" aria-hidden="true"><use href="#icon-mail"></use></svg><span>sudo.shiyang@gmail.com</span></p>
         </div>
       </div>
     </section>
@@ -92,11 +84,10 @@
     </section>
 
     <section class="content-section" id="news" aria-labelledby="news-title">
-      <h2 class="visually-hidden" id="news-title">News</h2>
       <div class="news-window">
-        <div class="news-window-header" aria-hidden="true">
-          <span>News</span>
-          <span>Updates · Scroll</span>
+        <div class="news-window-header">
+          <h2 id="news-title">News</h2>
+          <span aria-hidden="true">Scroll for more <span class="scroll-hint-arrow">↓</span></span>
         </div>
         <div class="news-scroll" tabindex="0" aria-label="News updates. Scroll to view more.">
           <ol class="news-list" id="news-list">
@@ -119,7 +110,7 @@
         <article class="education-item">
           <div class="education-date"><time datetime="2023">2023</time>–<time datetime="2027">2027</time></div>
           <img class="education-logo" src="assets/gdut-mark.png" alt="" width="608" height="608">
-          <div>
+          <div class="education-details">
             <h3>Guangdong University of Technology</h3>
             <p>School of Computer Science</p>
           </div>
@@ -127,7 +118,7 @@
         <article class="education-item">
           <div class="education-date"><time datetime="2027">2027</time>–</div>
           <img class="education-logo" src="assets/pku-mark.png" alt="" width="360" height="360">
-          <div>
+          <div class="education-details">
             <h3>Peking University</h3>
             <p>School of Electronic and Computer Engineering</p>
           </div>
@@ -141,7 +132,7 @@
           <h2 id="publications-title">Selected Publications</h2>
           <p><sup>*</sup> Equal contribution · <sup>†</sup> Corresponding author</p>
         </div>
-        <a class="section-all-link" href="publications/index.html"><span>View All Publications</span></a>
+        <a class="section-all-link" href="publications/index.html"><span>View All Publications</span><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"></path></svg></a>
       </div>
 
       <div class="publication-list">
@@ -232,13 +223,13 @@
       <article class="award-item">
         <time datetime="2026">2026</time>
         <div>
-          <h3 style="font-variant-numeric: lining-nums; font-feature-settings: 'lnum';">
+          <h3>
             <a href="https://www.thecvf.com/?page_id=413#CVPRBestHonorable" target="_blank" rel="noopener noreferrer">
               <svg class="icon award-star" aria-hidden="true"><use href="#icon-star"></use></svg>
               <span>CVPR 2026 Best Student Paper Honorable Mention</span>
             </a>
           </h3>
-          <p class="venue" style="margin-top: 4px; margin-left: 22px;">
+          <p class="venue award-description">
             Awarded for paper: ChordEdit: One-Step Low-Energy Transport for Image Editing
           </p>
         </div>
